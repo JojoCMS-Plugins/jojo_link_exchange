@@ -229,11 +229,13 @@ function postLink()
             $content['title']                 = $category['lc_name'];
             $smarty->assign('category', $category);
             $linkexchanges = Jojo::selectQuery("SELECT * FROM {linkexchange} WHERE lx_active='yes' ".$where."", array($id));
-            $n = count($linkexchanges);
-            for ($i=0;$i<$n;$i++) {
-                $linkexchanges[$i]['internalurl'] = Jojo::rewrite(_DIRECTORYLISTINGNAME, $linkexchanges[$i]['linkexchangeid'], $linkexchanges[$i]['lx_name'], '');
-            }
 
+            if(_LINKDIRECT<>"yes") {
+              $n = count($linkexchanges);
+              for ($i=0;$i<$n;$i++) {
+                  $linkexchanges[$i]['internalurl'] = Jojo::rewrite(_DIRECTORYLISTINGNAME, $linkexchanges[$i]['linkexchangeid'], $linkexchanges[$i]['lx_name'], '');
+              }
+            }
 
             $linkdirect = (_LINKDIRECT=="yes") ? "lx_url": "internalurl";
             $smarty->assign('linkdirect', $linkdirect);
@@ -294,10 +296,17 @@ function postLink()
         } else {
             /* Link Exchange Homepage */
             $linkexchanges = Jojo::selectQuery("SELECT * FROM {linkexchange} WHERE lx_priority='high'");
-            $n = count($linkexchanges);
-            for ($i=0; $i<$n; $i++) {
-                $linkexchanges[$i]['internalurl'] = Jojo::rewrite(_DIRECTORYLISTINGNAME, $linkexchanges[$i]['linkexchangeid'], $linkexchanges[$i]['lx_name'], '');
+
+            if(_LINKDIRECT<>"yes") {
+              $n = count($linkexchanges);
+              for ($i=0;$i<$n;$i++) {
+                  $linkexchanges[$i]['internalurl'] = Jojo::rewrite(_DIRECTORYLISTINGNAME, $linkexchanges[$i]['linkexchangeid'], $linkexchanges[$i]['lx_name'], '');
+              }
             }
+
+            $linkdirect = (_LINKDIRECT=="yes") ? "lx_url": "internalurl";
+            $smarty->assign('linkdirect', $linkdirect);
+
             $smarty->assign('linkexchangehome', true);
             $smarty->assign('linkexchanges', $linkexchanges);
             $smarty->assign('content', $this->page['pg_body']);

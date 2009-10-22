@@ -3,7 +3,8 @@
 {if $linkexchange}
 
     {if $linkexchange.lx_body}
-        {if $linkexchange.lx_image}<img src="images/250/linkexchanges/{$linkexchange.lx_image}" class="boxed" align="right" alt="{$linkexchange.lx_linktext}" />{/if}
+        {if $linkexchange.lx_image}<img src="images/250/linkexchanges/{$linkexchange.lx_image}" class="boxed" align="right" alt="{$linkexchange.lx_linktext}" />
+        {/if}
         {$linkexchange.lx_body}
     {else}
         <a href="{$linkexchange.lx_url}" target="new" title="{$linkexchange.lx_url|replace:"http://":""}">{if $linkexchange.lx_linktext}{$linkexchange.lx_linktext}{else}{$linkexchange.lx_name}{/if}</a>
@@ -12,27 +13,17 @@
 
 
     {if $similarlinkexchanges}
-        <br />
-        <br />
-        <br />
+
+        <br /><br /><br />
         <hr />
-        <br />
-        <br />
-        <br />
+        <br /><br /><br />
+
         <h3>Other {$category.lc_name} Websites</h3>
     {section name=lx loop=$similarlinkexchanges}
         <!-- [{$similarlinkexchanges[lx].lx_name}] -->
         <a href="{$similarlinkexchanges[lx].internalurl}" title="{$similarlinkexchanges[lx].lx_url|replace:"http://":""}">{if $similarlinkexchanges[lx].lx_linktext}{$similarlinkexchanges[lx].lx_linktext}{else}{$similarlinkexchanges[lx].lx_name}{/if}</a>{if $similarlinkexchanges[lx].lx_desc} - {$similarlinkexchanges[lx].lx_desc}{/if}<br />
     {/section}
     {/if}
-
-
-
-
-
-
-
-
 
 {else}
 
@@ -56,11 +47,12 @@
 
     {if $linkexchanges}
         <hr />
+    <ul class="le">
     {section name=lx loop=$linkexchanges}
         <!-- [{$linkexchanges[lx].lx_name}] -->
-        <img src="images/cms/rightarrow{if $THEME}_{$THEME}{/if}.gif" border="0" alt="More info" />
-        <a href="{$linkexchanges[lx].$linkdirect}">{if $linkexchanges[lx].lx_linktext}{$linkexchanges[lx].lx_linktext}{else}{$linkexchanges[lx].lx_name}{/if}</a>{if $linkexchanges[lx].lx_desc} - {$linkexchanges[lx].lx_desc}{/if}<br />
+        <li><a href="{$linkexchanges[lx].$linkdirect}">{if $linkexchanges[lx].lx_linktext}{$linkexchanges[lx].lx_linktext}{else}{$linkexchanges[lx].lx_name}{/if}</a>{if $linkexchanges[lx].lx_desc} - {$linkexchanges[lx].lx_desc}{/if}</li>
     {/section}
+    </ul>
     {/if}
     {if $content && $linkexchangehome}{$content}<br /><br />{/if}
     </div>
@@ -85,7 +77,7 @@
 {else}
 
     <br />
-    <a href="{$SITEURL}/lx/"><b>Click to Request an Listing for your Site</b></a>
+    <a href="{$SITEURL}/lx/"><b>Click to Request a Listing for your Website.</b></a>
 
 
 {/if}
