@@ -34,7 +34,7 @@ $sites['bodsinmotion']['description'][] = 'Fitness equipment hire';
 $sites['bodsinmotion']['description'][] = 'Exercise equipment hire';
 $sites['bodsinmotion']['description'][] = 'Hire a treadmill';
 $sites['bodsinmotion']['description'][] = 'Auckland Fitness equipment';
-$sites['bodsinmotion']['pagerank'] = '3';
+$sites['bodsinmotion']['pagerank'] = '2';
 $sites['bodsinmotion']['group'] = 'a';
 
 //3
@@ -53,14 +53,14 @@ $sites['siriussports']['description'][] = 'NZ Sports Gear';
 $sites['siriussports']['description'][] = 'Sports gear';
 $sites['siriussports']['description'][] = 'Baseball equipment';
 $sites['siriussports']['description'][] = 'Softball gear';
-$sites['siriussports']['pagerank'] = '2';
+$sites['siriussports']['pagerank'] = '3';
 $sites['siriussports']['group'] = 'a';
 
 //5
 $sites['winephotoshop']['url'] = 'http://www.winephotoshop.com';
 $sites['winephotoshop']['description'] = array();
 $sites['winephotoshop']['description'][] = 'Winemaking photos';
-$sites['winephotoshop']['pagerank'] = '1';
+$sites['winephotoshop']['pagerank'] = '2';
 $sites['winephotoshop']['group'] = 'a';
 
 //6
@@ -83,7 +83,7 @@ $sites['livedesign']['description'][] = 'Garden design';
 $sites['livedesign']['description'][] = 'Landscape gardens';
 $sites['livedesign']['description'][] = 'Landscape design NZ';
 $sites['livedesign']['description'][] = 'Live Design';
-$sites['livedesign']['pagerank'] = '1';
+$sites['livedesign']['pagerank'] = '2';
 $sites['livedesign']['group'] = 'a';
 
 //8
@@ -91,7 +91,7 @@ $sites['getzen']['url'] = 'http://www.getzennow.com';
 $sites['getzen']['description'] = array();
 $sites['getzen']['description'][] = 'Timesheet Software';
 $sites['getzen']['description'][] = 'Project Management Software';
-$sites['getzen']['pagerank'] = '3';
+$sites['getzen']['pagerank'] = '2';
 $sites['getzen']['group'] = 'a';
 
 //9
@@ -128,7 +128,7 @@ $sites['planetnz']['description'][] = 'New Zealand Rental Cars';
 $sites['planetnz']['description'][] = 'NZ Car hire';
 $sites['planetnz']['description'][] = 'NZ car rentals';
 $sites['planetnz']['description'][] = 'NZ car rental';
-$sites['planetnz']['pagerank'] = '3';
+$sites['planetnz']['pagerank'] = '4';
 $sites['planetnz']['group'] = 'a';
 
 //12
@@ -141,7 +141,7 @@ $sites['mealmotivation']['description'][] = 'Recipe blog';
 $sites['mealmotivation']['description'][] = 'Food blog';
 $sites['mealmotivation']['description'][] = 'NZ recipes';
 $sites['mealmotivation']['description'][] = 'Recipe blog';
-$sites['mealmotivation']['pagerank'] = '2';
+$sites['mealmotivation']['pagerank'] = '0';
 $sites['mealmotivation']['group'] = 'a';
 
 //13
@@ -151,7 +151,7 @@ $sites['time2dine']['description'][] = 'Auckland Restaurant';
 $sites['time2dine']['description'][] = 'Auckland Restaurants';
 $sites['time2dine']['description'][] = 'Restaurants Auckland';
 $sites['time2dine']['description'][] = 'Restaurants in Auckland';
-$sites['time2dine']['pagerank'] = '3';
+$sites['time2dine']['pagerank'] = '4';
 $sites['time2dine']['group'] = 'a';
 
 //14
@@ -163,19 +163,19 @@ $sites['thetopschools']['description'][] = 'Top Universities';
 $sites['thetopschools']['description'][] = 'School Information';
 $sites['thetopschools']['description'][] = 'College Information';
 $sites['thetopschools']['description'][] = 'University Information';
-$sites['thetopschools']['pagerank'] = '1';
+$sites['thetopschools']['pagerank'] = '2';
 $sites['thetopschools']['group'] = 'a';
 
 //doubled up several items so there is twice the % of links for those phrases as compared to the others linked to
 //15
 
-$sites['elliotthotel']['url'] = 'http://www.elliottaucklandcityhotel.com/';
+$sites['elliotthotel']['url'] = 'http://www.elliottaucklandcityhotel.com';
 $sites['elliotthotel']['description'] = array();
 $sites['elliotthotel']['description'][] = 'Hotel Auckland';
 $sites['elliotthotel']['description'][] = 'Auckland City Hotels';
 $sites['elliotthotel']['description'][] = 'Auckland Apartments';
 $sites['elliotthotel']['description'][] = 'Auckland Hotels';
-$sites['elliotthotel']['pagerank'] = '1';
+$sites['elliotthotel']['pagerank'] = '3';
 $sites['elliotthotel']['group'] = 'a';
 
 
@@ -231,7 +231,7 @@ $sites['cookwareessentials']['description'][] = 'Kitchen utensils';
 $sites['cookwareessentials']['description'][] = 'Cookware accessories';
 $sites['cookwareessentials']['description'][] = 'Cooking equipment';
 $sites['cookwareessentials']['description'][] = 'Cooking utensils';
-$sites['cookwareessentials']['pagerank'] = '3';
+$sites['cookwareessentials']['pagerank'] = '2';
 $sites['cookwareessentials']['group'] = 'a';
 
 
@@ -239,7 +239,7 @@ $sites['cookwareessentials']['group'] = 'a';
 $sites['jonathanbrandononline']['url'] = 'http://www.jonathanbrandononline.com';
 $sites['jonathanbrandononline']['description'] = array();
 $sites['jonathanbrandononline']['description'][] = 'Jonathan Brandon';
-$sites['jonathanbrandononline']['pagerank'] = '0';
+$sites['jonathanbrandononline']['pagerank'] = '2';
 $sites['jonathanbrandononline']['group'] = 'a';
 
 //20 added 12/11/08
@@ -249,7 +249,7 @@ $sites['gocountry']['description'][] = 'New Zealand Adventure Travel';
 $sites['gocountry']['description'][] = 'Adventure Travel';
 $sites['gocountry']['description'][] = 'Adventure Tours';
 $sites['gocountry']['description'][] = 'New Zealand Adventure Tours';
-$sites['gocountry']['pagerank'] = '2';
+$sites['gocountry']['pagerank'] = '3';
 $sites['gocountry']['group'] = 'a';
 
 //21 added 17/11/08
@@ -257,7 +257,7 @@ $sites['jungledoctorsharon']['url'] = 'http://www.jungledoctorsharon.co.nz';
 $sites['jungledoctorsharon']['description'] = array();
 $sites['jungledoctorsharon']['description'][] = 'Papua New Guinea Missionary';
 $sites['jungledoctorsharon']['description'][] = 'New Zealand Missionary Doctor';
-$sites['jungledoctorsharon']['pagerank'] = '0';
+$sites['jungledoctorsharon']['pagerank'] = '2';
 $sites['jungledoctorsharon']['group'] = 'a';
 
 //22 added 20/11/08
@@ -266,7 +266,7 @@ $sites['searchengineoptimisation']['description'] = array();
 $sites['searchengineoptimisation']['description'][] = 'Search Engine Optimisation';
 $sites['searchengineoptimisation']['description'][] = 'SEO';
 $sites['searchengineoptimisation']['description'][] = 'Search Engine Marketing';
-$sites['searchengineoptimisation']['pagerank'] = '0';
+$sites['searchengineoptimisation']['pagerank'] = '2';
 $sites['searchengineoptimisation']['group'] = 'a';
 
 
@@ -276,7 +276,7 @@ $sites['smhosting']['description'] = array();
 $sites['smhosting']['description'][] = 'Website Hosting';
 $sites['smhosting']['description'][] = 'Business Web Hosting';
 $sites['smhosting']['description'][] = 'Web Site Hosting';
-$sites['smhosting']['pagerank'] = '0';
+$sites['smhosting']['pagerank'] = '3';
 $sites['smhosting']['group'] = 'a';
 
 //24 added 6/3/09
@@ -284,7 +284,7 @@ $sites['smonline']['url'] = 'http://www.searchmastersonline.com';
 $sites['smonline']['description'] = array();
 $sites['smonline']['description'][] = 'Search Engine Optimization';
 $sites['smonline']['description'][] = 'SEO';
-$sites['smonline']['pagerank'] = '0';
+$sites['smonline']['pagerank'] = '3';
 $sites['smonline']['group'] = 'a';
 
 
@@ -303,7 +303,7 @@ $sites['econergy']['description'] = array();
 $sites['econergy']['description'][] = 'Heat Pump Water Heaters';
 $sites['econergy']['description'][] = 'Hot Water Cylinder';
 $sites['econergy']['description'][] = 'Solar Water Heating';
-$sites['econergy']['pagerank'] = '1';
+$sites['econergy']['pagerank'] = '3';
 $sites['econergy']['group'] = 'a';
 
 //27 added 12/2/09
@@ -311,7 +311,7 @@ $sites['ohcalcutta']['url'] = 'http://www.ohcalcutta.co.nz';
 $sites['ohcalcutta']['description'] = array();
 $sites['ohcalcutta']['description'][] = 'Auckland Restaurants';
 $sites['ohcalcutta']['description'][] = 'Parnell Restaurants';
-$sites['ohcalcutta']['pagerank'] = '3';
+$sites['ohcalcutta']['pagerank'] = '4';
 $sites['ohcalcutta']['group'] = 'a';
 
 //28 added 26/2/09
@@ -320,7 +320,7 @@ $sites['jekzshoesnz']['description'] = array();
 $sites['jekzshoesnz']['description'][] = 'Shoes';
 $sites['jekzshoesnz']['description'][] = 'Womens Shoes';
 $sites['jekzshoesnz']['description'][] = 'Mens Shoes';
-$sites['jekzshoesnz']['pagerank'] = '0';
+$sites['jekzshoesnz']['pagerank'] = '2';
 $sites['jekzshoesnz']['group'] = 'a';
 
 //29 added 23/02/09
@@ -328,7 +328,7 @@ $sites['nzhjnet']['url'] = 'http://www.newzealandhealthjobs.net';
 $sites['nzhjnet']['description'] = array();
 $sites['nzhjnet']['description'][] = 'RN Jobs in NZ';
 $sites['nzhjnet']['description'][] = 'Registered Nurse Jobs';
-$sites['nzhjnet']['pagerank'] = '0';
+$sites['nzhjnet']['pagerank'] = '2';
 $sites['nzhjnet']['group'] = 'a';
 
 //30 added 23/02/09
@@ -336,7 +336,7 @@ $sites['nzhjconz']['url'] = 'http://www.newzealandhealthjobs.co.nz';
 $sites['nzhjconz']['description'] = array();
 $sites['nzhjconz']['description'][] = 'Travel Nursing Jobs';
 $sites['nzhjconz']['description'][] = 'New Zealand Travel Nursing Jobs';
-$sites['nzhjconz']['pagerank'] = '0';
+$sites['nzhjconz']['pagerank'] = '2';
 $sites['nzhjconz']['group'] = 'a';
 
 //31 added 23/02/09
@@ -344,7 +344,7 @@ $sites['nzhjnenz']['url'] = 'http://www.newzealandhealthjobs.net.nz';
 $sites['nzhjnenz']['description'] = array();
 $sites['nzhjnenz']['description'][] = 'New Zealand Hospital Jobs';
 $sites['nzhjnenz']['description'][] = 'NZ Medical Jobs';
-$sites['nzhjnenz']['pagerank'] = '0';
+$sites['nzhjnenz']['pagerank'] = '3';
 $sites['nzhjnenz']['group'] = 'a';
 
 //32 added 23/02/09
@@ -352,7 +352,7 @@ $sites['nzhjorg']['url'] = 'http://www.newzealandhealthjobs.org';
 $sites['nzhjorg']['description'] = array();
 $sites['nzhjorg']['description'][] = 'NZ Nursing Jobs';
 $sites['nzhjorg']['description'][] = 'NZ Doctor Jobs';
-$sites['nzhjorg']['pagerank'] = '0';
+$sites['nzhjorg']['pagerank'] = '2';
 $sites['nzhjorg']['group'] = 'a';
 
 //33 added 23/02/09
@@ -360,7 +360,7 @@ $sites['nzhjornz']['url'] = 'http://www.newzealandhealthjobs.org.nz';
 $sites['nzhjornz']['description'] = array();
 $sites['nzhjornz']['description'][] = 'Medical Jobs';
 $sites['nzhjornz']['description'][] = 'Hospital Jobs';
-$sites['nzhjornz']['pagerank'] = '0';
+$sites['nzhjornz']['pagerank'] = '2';
 $sites['nzhjornz']['group'] = 'a';
 
 //34 added 23/02/09
@@ -368,7 +368,7 @@ $sites['nzhjus']['url'] = 'http://www.newzealandhealthjobs.us';
 $sites['nzhjus']['description'] = array();
 $sites['nzhjus']['description'][] = 'Nurse Practitioner Jobs';
 $sites['nzhjus']['description'][] = 'Medical Jobs In New Zealand';
-$sites['nzhjus']['pagerank'] = '0';
+$sites['nzhjus']['pagerank'] = '2';
 $sites['nzhjus']['group'] = 'a';
 
 //35 added 10/2/09
@@ -376,7 +376,7 @@ $sites['nzhjinfo']['url'] = 'http://www.newzealandhealthjobs.info';
 $sites['nzhjinfo']['description'] = array();
 $sites['nzhjinfo']['description'][] = 'New Zealand Nursing Jobs';
 $sites['nzhjinfo']['description'][] = 'New Zealand Health Jobs';
-$sites['nzhjinfo']['pagerank'] = '0';
+$sites['nzhjinfo']['pagerank'] = '3';
 $sites['nzhjinfo']['group'] = 'a';
 
 //36 added 10/2/09
@@ -385,7 +385,7 @@ $sites['nzhjbiz']['description'] = array();
 $sites['nzhjbiz']['description'][] = 'New Zealand Doctor Jobs';
 $sites['nzhjbiz']['description'][] = 'Doctor Jobs';
 $sites['nzhjbiz']['description'][] = 'New Zealand Health Jobs';
-$sites['nzhjbiz']['pagerank'] = '0';
+$sites['nzhjbiz']['pagerank'] = '2';
 $sites['nzhjbiz']['group'] = 'a';
 
 //37 added 22/3/09
@@ -394,7 +394,7 @@ $sites['eeccouk']['description'] = array();
 $sites['eeccouk']['description'][] = 'Electronic Cigarette';
 $sites['eeccouk']['description'][] = 'Electronic Cigarettes';
 $sites['eeccouk']['description'][] = 'Cigarettes';
-$sites['eeccouk']['pagerank'] = '0';
+$sites['eeccouk']['pagerank'] = '2';
 $sites['eeccouk']['group'] = 'a';
 
 //38 added 25/3/09
@@ -403,7 +403,7 @@ $sites['eecconz']['description'] = array();
 $sites['eecconz']['description'][] = 'Electronic Cigarette';
 $sites['eecconz']['description'][] = 'Electronic Cigarettes';
 $sites['eecconz']['description'][] = 'Cigarettes';
-$sites['eecconz']['pagerank'] = '0';
+$sites['eecconz']['pagerank'] = '2';
 $sites['eecconz']['group'] = 'a';
 
 //39 added 25/3/09
@@ -412,7 +412,7 @@ $sites['eeccomau']['description'] = array();
 $sites['eeccomau']['description'][] = 'Electronic Cigarette';
 $sites['eeccomau']['description'][] = 'Electronic Cigarettes';
 $sites['eeccomau']['description'][] = 'Cigarettes';
-$sites['eeccomau']['pagerank'] = '0';
+$sites['eeccomau']['pagerank'] = '2';
 $sites['eeccomau']['group'] = 'a';
 
 //40 added 27/3/09
@@ -421,7 +421,7 @@ $sites['joandesu']['description'] = array();
 $sites['joandesu']['description'][] = 'Frozen Food';
 $sites['joandesu']['description'][] = 'Frozen Vegetables';
 $sites['joandesu']['description'][] = 'Frozen Food Distributors';
-$sites['joandesu']['pagerank'] = '1';
+$sites['joandesu']['pagerank'] = '2';
 $sites['joandesu']['group'] = 'a';
 
 //41 added 16/6/2009
@@ -429,7 +429,7 @@ $sites['elenab']['url'] = 'http://www.elenabrandon.com';
 $sites['elenab']['description'] = array();
 $sites['elenab']['description'][] = 'Elena Brandon';
 $sites['elenab']['description'][] = 'Elena';
-$sites['elenab']['pagerank'] = '0';
+$sites['elenab']['pagerank'] = '2';
 $sites['elenab']['group'] = 'a';
 
 /* Group B */
@@ -465,7 +465,7 @@ $sites['challenger']['group'] = 'b';
 $sites['ezgo']['url'] = 'http://www.ezgo.co.nz';
 $sites['ezgo']['description'] = array();
 $sites['ezgo']['description'][] = 'Electric golf carts';
-$sites['ezgo']['pagerank'] = '4';
+$sites['ezgo']['pagerank'] = '3';
 $sites['ezgo']['group'] = 'b';
 
 //6
@@ -481,7 +481,7 @@ $sites['newriver']['description'] = array();
 $sites['newriver']['description'][] = 'Market Research';
 $sites['newriver']['description'][] = 'Market Research New Zealand';
 $sites['newriver']['description'][] = 'New Zealand Market Research';
-$sites['newriver']['pagerank'] = '3';
+$sites['newriver']['pagerank'] = '2';
 $sites['newriver']['group'] = 'b';
 
 //8
@@ -528,17 +528,17 @@ $sites['holidayhomes-taupo']['description'][] = 'Taupo Holiday Homes';
 $sites['holidayhomes-taupo']['description'][] = 'Taupo Accommodation';
 $sites['holidayhomes-taupo']['description'][] = 'Lake Taupo Holiday Homes';
 $sites['holidayhomes-taupo']['description'][] = 'Lake Taupo Accommodation';
-$sites['holidayhomes-taupo']['pagerank'] = '4';
+$sites['holidayhomes-taupo']['pagerank'] = '3';
 $sites['holidayhomes-taupo']['group'] = 'b';
 
 //12 - added 21/2/08
-$sites['holidayhomes-rotorua']['url'] = 'http://www.holidayhomes.co.nz/for-rent/new-zealand/north-island/bay-of-plenty-waikato/rotorua/';
+$sites['holidayhomes-rotorua']['url'] = 'http://www.holidayhomes.co.nz/for-rent/new-zealand/north-island/bay-of-plenty-waikato/lake-rotorua/';
 $sites['holidayhomes-rotorua']['displayurl'] = 'http://www.holidayhomes.co.nz/../lake-rotorua/';
 $sites['holidayhomes-rotorua']['description'] = array();
 $sites['holidayhomes-rotorua']['description'][] = 'Rotorua Holiday Homes';
 $sites['holidayhomes-rotorua']['description'][] = 'Rotorua Accommodation';
 $sites['holidayhomes-rotorua']['description'][] = 'Rotorua Holiday Homes for Rent';
-$sites['holidayhomes-rotorua']['pagerank'] = '1';
+$sites['holidayhomes-rotorua']['pagerank'] = '2';
 $sites['holidayhomes-rotorua']['group'] = 'b';
 
 //13 - added 31/3/08
@@ -581,7 +581,7 @@ $sites['outtolearn']['description'][] = 'Baby Learning Toys';
 $sites['outtolearn']['description'][] = "Children's Educational Toys";
 $sites['outtolearn']['description'][] = 'Toy Stores';
 $sites['outtolearn']['description'][] = 'Children Learning Toys';
-$sites['outtolearn']['pagerank'] = '4';
+$sites['outtolearn']['pagerank'] = '3';
 $sites['outtolearn']['group'] = 'b';
 
 //17 - added 30/4/08
@@ -592,43 +592,30 @@ $sites['outtoplay']['description'][] = 'Kids Toys';
 $sites['outtoplay']['description'][] = "Children's Toys";
 $sites['outtoplay']['description'][] = 'Play Toys';
 $sites['outtoplay']['description'][] = 'Online Store';
-$sites['outtoplay']['pagerank'] = '5';
+$sites['outtoplay']['pagerank'] = '4';
 $sites['outtoplay']['group'] = 'b';
 
 
-//19
-$sites['bouncycastlefun']['url'] = 'http://www.bouncycastlefun.co.nz';
-$sites['bouncycastlefun']['description'] = array();
-$sites['bouncycastlefun']['description'][] = 'Bouncy castles';
-$sites['bouncycastlefun']['description'][] = 'Bouncy castle hire';
-$sites['bouncycastlefun']['description'][] = 'Hire a bouncy castle';
-$sites['bouncycastlefun']['description'][] = 'Hire bouncy castles';
-$sites['bouncycastlefun']['description'][] = 'Bouncy castle rental';
-$sites['bouncycastlefun']['description'][] = 'Auckland bouncy castles';
-$sites['bouncycastlefun']['description'][] = 'Bouncy castles Auckland';
-$sites['bouncycastlefun']['pagerank'] = '2';
-$sites['bouncycastlefun']['group'] = 'b';
-
-//20
+//18
 $sites['refocus']['url'] = 'http://www.refocus.co.nz';
 $sites['refocus']['description'] = array();
 $sites['refocus']['description'][] = 'New Zealand Engineering Jobs';
 $sites['refocus']['description'][] = 'Engineering Jobs New Zealand';
 $sites['refocus']['description'][] = 'Engineering Jobs in New Zealand';
 $sites['refocus']['description'][] = 'Engineering Jobs NZ';
-$sites['refocus']['pagerank'] = '2';
+$sites['refocus']['pagerank'] = '3';
 $sites['refocus']['group'] = 'b';
 
-//21
+//19
 $sites['nzlandscapes']['url'] = 'http://www.nzlandscapes.co.nz';
 $sites['nzlandscapes']['description'] = array();
 $sites['nzlandscapes']['description'][] = 'New Zealand Pictures';
 $sites['nzlandscapes']['description'][] = 'New Zealand Photos';
 $sites['nzlandscapes']['description'][] = 'New Zealand Landscapes';
-$sites['nzlandscapes']['pagerank'] = '4';
+$sites['nzlandscapes']['pagerank'] = '3';
 $sites['nzlandscapes']['group'] = 'b';
 
-//22 added 21/11/08
+//20 added 21/11/08
 $sites['tctc']['url'] = 'http://www.tctc.co.nz';
 $sites['tctc']['description'] = array();
 $sites['tctc']['description'][] = 'Xmas Trees';
@@ -637,18 +624,18 @@ $sites['tctc']['description'][] = 'Christmas Trees';
 $sites['tctc']['pagerank'] = '2';
 $sites['tctc']['group'] = 'b';
 
-//23 added 21/11/08
+//21 added 21/11/08
 $sites['apexpines']['url'] = 'http://www.apexpines.co.nz';
 $sites['apexpines']['description'] = array();
 $sites['apexpines']['description'][] = 'Xmas Trees';
 $sites['apexpines']['description'][] = 'Auckland Christmas Trees';
 $sites['apexpines']['description'][] = 'Christmas Trees';
 $sites['apexpines']['description'][] = 'Christmas Tree';
-$sites['apexpines']['pagerank'] = '2';
+$sites['apexpines']['pagerank'] = '3';
 $sites['apexpines']['group'] = 'b';
 
 
-//24 added 15/1/09
+//22 added 15/1/09
 $sites['pestcontrol']['url'] = 'http://www.pestcontrol.net.nz';
 $sites['pestcontrol']['description'] = array();
 $sites['pestcontrol']['description'][] = 'Auckland Pest Control';
@@ -657,7 +644,7 @@ $sites['pestcontrol']['description'][] = 'Pest Control';
 $sites['pestcontrol']['pagerank'] = '3';
 $sites['pestcontrol']['group'] = 'b';
 
-//25 added 29/1/09
+//23 added 29/1/09
 $sites['snackboxes']['url'] = 'http://www.snackboxes.co.nz';
 $sites['snackboxes']['description'] = array();
 $sites['snackboxes']['description'][] = 'Snack Boxes';
@@ -666,27 +653,27 @@ $sites['snackboxes']['description'][] = 'Snack Vending';
 $sites['snackboxes']['pagerank'] = '2';
 $sites['snackboxes']['group'] = 'b';
 
-//26 added 10/2/09
+//24 added 10/2/09
 $sites['nzhjcom']['url'] = 'http://www.newzealandhealthjobs.com';
 $sites['nzhjcom']['description'] = array();
 $sites['nzhjcom']['description'][] = 'HealthCare Jobs';
 $sites['nzhjcom']['description'][] = 'Nursing Jobs';
 $sites['nzhjcom']['description'][] = 'Doctor Jobs';
 $sites['nzhjcom']['description'][] = 'New Zealand Health Jobs';
-$sites['nzhjcom']['pagerank'] = '2';
+$sites['nzhjcom']['pagerank'] = '3';
 $sites['nzhjcom']['group'] = 'b';
 
 
-//27 added 17/2/09
+//25 added 17/2/09
 $sites['citysales']['url'] = 'http://www.citysales.co.nz';
 $sites['citysales']['description'] = array();
 $sites['citysales']['description'][] = 'Auckland Apartments';
 $sites['citysales']['description'][] = 'Apartments in Auckland';
-$sites['citysales']['pagerank'] = '3';
+$sites['citysales']['pagerank'] = '4';
 $sites['citysales']['group'] = 'b';
 
 
-//28 added 19/2/09
+//26 added 19/2/09
 $sites['yourbusinesschannel']['url'] = 'http://www.yourbusinesschannel.com';
 $sites['yourbusinesschannel']['description'] = array();
 $sites['yourbusinesschannel']['description'][] = 'Business Development';
@@ -695,7 +682,7 @@ $sites['yourbusinesschannel']['description'][] = 'Business Television';
 $sites['yourbusinesschannel']['pagerank'] = '5';
 $sites['yourbusinesschannel']['group'] = 'b';
 
-//29 added 21/2/09
+//27 added 21/2/09
 $sites['jekzshoes']['url'] = 'http://www.jekzshoes.com.au';
 $sites['jekzshoes']['description'] = array();
 $sites['jekzshoes']['description'][] = 'Shoes';
@@ -704,34 +691,34 @@ $sites['jekzshoes']['description'][] = 'Mens Shoes';
 $sites['jekzshoes']['pagerank'] = '3';
 $sites['jekzshoes']['group'] = 'b';
 
-//30 added 22/3/09
+//28 added 22/3/09
 $sites['eeccom']['url'] = 'http://www.elusionelectroniccigarette.com';
 $sites['eeccom']['description'] = array();
 $sites['eeccom']['description'][] = 'Electronic Cigarette';
 $sites['eeccom']['description'][] = 'Electronic Cigarettes';
 $sites['eeccom']['description'][] = 'Cigarettes';
-$sites['eeccom']['pagerank'] = '2';
+$sites['eeccom']['pagerank'] = '3';
 $sites['eeccom']['group'] = 'b';
 
-//31 added 25/3/09
+//29 added 25/3/09
 $sites['loans2go']['url'] = 'http://www.loans2go.co.nz';
 $sites['loans2go']['description'] = array();
 $sites['loans2go']['description'][] = 'Personal Loans';
 $sites['loans2go']['description'][] = 'Debt Consolidation';
 $sites['loans2go']['description'][] = 'Car Loans';
-$sites['loans2go']['pagerank'] = '2';
+$sites['loans2go']['pagerank'] = '3';
 $sites['loans2go']['group'] = 'b';
 
-//34 - added 27/3/09
+//30 - added 27/3/09
 $sites['metromotel']['url'] = 'http://www.metropolitanmotel.co.nz';
 $sites['metromotel']['description'] = array();
 $sites['metromotel']['description'][] = 'Christchurch Motel';
 $sites['metromotel']['description'][] = 'Christchurch Motels';
 $sites['metromotel']['description'][] = 'Motels in Christchurch';
-$sites['metromotel']['pagerank'] = '2';
+$sites['metromotel']['pagerank'] = '3';
 $sites['metromotel']['group'] = 'b';
 
-//35 - added 10/4/09
+//31 - added 10/4/09
 $sites['yesido']['url'] = 'http://www.yesido.co.nz';
 $sites['yesido']['description'] = array();
 $sites['yesido']['description'][] = 'Wedding Dresses';
@@ -740,35 +727,35 @@ $sites['yesido']['description'][] = 'Wedding Cakes';
 $sites['yesido']['pagerank'] = '2';
 $sites['yesido']['group'] = 'b';
 
-//36 - added 10/4/09
+//32 - added 10/4/09
 $sites['camelot']['url'] = 'http://www.camelot.co.nz';
 $sites['camelot']['description'] = array();
 $sites['camelot']['description'][] = 'Christchurch Accommodation';
 $sites['camelot']['description'][] = 'Accommodation in Christchurch';
 $sites['camelot']['description'][] = 'Christchurch Motels';
-$sites['camelot']['pagerank'] = '3';
+$sites['camelot']['pagerank'] = '4';
 $sites['camelot']['group'] = 'b';
 
-//37 - added 15/4/09
+//33 - added 15/4/09
 $sites['fingermark']['url'] = 'http://www.fingermarktouchscreenkiosks.com';
 $sites['fingermark']['description'] = array();
 $sites['fingermark']['description'][] = 'Touch Screen Kiosks';
 $sites['fingermark']['description'][] = 'Touch Screen Kiosk';
 $sites['fingermark']['description'][] = 'Touch Panel Kiosk';
 $sites['fingermark']['description'][] = 'Digital Signage';
-$sites['fingermark']['pagerank'] = '2';
+$sites['fingermark']['pagerank'] = '3';
 $sites['fingermark']['group'] = 'b';
 
-//38 - added 4/6/09
+//34 - added 4/6/09
 $sites['alexcom']['url'] = 'http://www.alexandercommunications.co.nz';
 $sites['alexcom']['description'] = array();
 $sites['alexcom']['description'][] = 'Public Relations';
 $sites['alexcom']['description'][] = 'Auckland Public Relations Agency';
 $sites['alexcom']['description'][] = 'PR';
-$sites['alexcom']['pagerank'] = '2';
+$sites['alexcom']['pagerank'] = '3';
 $sites['alexcom']['group'] = 'b';
 
-//39 - added 5/6/09
+//35 - added 5/6/09
 $sites['howick']['url'] = 'http://www.howickltd.com';
 $sites['howick']['description'] = array();
 $sites['howick']['description'][] = 'Roll Forming Machine';
@@ -777,13 +764,13 @@ $sites['howick']['description'][] = 'Steel Framing Machines';
 $sites['howick']['pagerank'] = '3';
 $sites['howick']['group'] = 'b';
 
-//40 - added 8/8/09
+//36 - added 8/8/09
 $sites['hasslefreetours']['url'] = 'http://www.hasslefreetours.co.nz';
 $sites['hasslefreetours']['description'] = array();
 $sites['hasslefreetours']['description'][] = 'New Zealand Tours';
 $sites['hasslefreetours']['description'][] = 'New Zealand Vacation Packages';
 $sites['hasslefreetours']['description'][] = 'New Zealand Vacations';
-$sites['hasslefreetours']['pagerank'] = '3';
+$sites['hasslefreetours']['pagerank'] = '4';
 $sites['hasslefreetours']['group'] = 'b';
 
 
@@ -821,7 +808,7 @@ $sites['sprachschulen']['description'][] = 'Neuseeland Sprachkurse';
 $sites['sprachschulen']['description'][] = 'Sprachschule New Zealand';
 $sites['sprachschulen']['description'][] = 'New Zealand Language Course';
 $sites['sprachschulen']['description'][] = 'New Zealand Language School';
-$sites['sprachschulen']['pagerank'] = '3';
+$sites['sprachschulen']['pagerank'] = '2';
 $sites['sprachschulen']['group'] = 'c';
 
 //3
@@ -831,7 +818,7 @@ $sites['harveykane']['description'][] = 'PHP web developer';
 $sites['harveykane']['description'][] = 'PHP web development';
 $sites['harveykane']['description'][] = 'Web developer';
 $sites['harveykane']['description'][] = 'Auckland web developer';
-$sites['harveykane']['pagerank'] = '2';
+$sites['harveykane']['pagerank'] = '3';
 $sites['harveykane']['group'] = 'c';
 
 //4
@@ -846,7 +833,7 @@ $sites['louisakane']['url'] = 'http://www.louisakane.com';
 $sites['louisakane']['description'] = array();
 $sites['louisakane']['description'][] = 'Baby Blog';
 $sites['louisakane']['description'][] = 'Baby Lulu';
-$sites['louisakane']['pagerank'] = '3';
+$sites['louisakane']['pagerank'] = '2';
 $sites['louisakane']['group'] = 'c';
 
 //6
@@ -861,7 +848,7 @@ $sites['wireplus']['url'] = 'http://www.wireplus.co.nz';
 $sites['wireplus']['description'] = array();
 $sites['wireplus']['description'][] = 'Reinforcing steel';
 $sites['wireplus']['description'][] = 'Reinforcing mesh';
-$sites['wireplus']['pagerank'] = '4';
+$sites['wireplus']['pagerank'] = '3';
 $sites['wireplus']['group'] = 'c';
 
 //8
@@ -895,7 +882,7 @@ $sites['radicalboatpropeller']['description'][] = 'Boat propellers';
 $sites['radicalboatpropeller']['description'][] = 'Boat propeller design';
 $sites['radicalboatpropeller']['description'][] = 'Marine propellers';
 $sites['radicalboatpropeller']['description'][] = 'Boat propellors';
-$sites['radicalboatpropeller']['pagerank'] = '3';
+$sites['radicalboatpropeller']['pagerank'] = '2';
 $sites['radicalboatpropeller']['group'] = 'c';
 
 //11
@@ -917,7 +904,7 @@ $sites['nocowboys']['description'][] = 'Builders';
 $sites['nocowboys']['description'][] = 'Mechanics';
 $sites['nocowboys']['description'][] = 'Painters';
 $sites['nocowboys']['description'][] = 'Plumbers';
-$sites['nocowboys']['pagerank'] = '4';
+$sites['nocowboys']['pagerank'] = '3';
 $sites['nocowboys']['group'] = 'c';
 
 //13
@@ -951,7 +938,7 @@ $sites['lakeridgecondos']['description'][] = 'Queenstown Apartments';
 $sites['lakeridgecondos']['description'][] = 'Apartments Queenstown';
 $sites['lakeridgecondos']['description'][] = 'Queenstown Accommodation';
 $sites['lakeridgecondos']['description'][] = 'Accommodation Queenstown';
-$sites['lakeridgecondos']['pagerank'] = '4';
+$sites['lakeridgecondos']['pagerank'] = '3';
 $sites['lakeridgecondos']['group'] = 'c';
 
 
@@ -971,7 +958,7 @@ $sites['elliottyoutube']['displayurl'] = 'http://www.youtube.com/..elliotthotel.
 $sites['elliottyoutube']['description'] = array();
 $sites['elliottyoutube']['description'][] = 'Auckland Hotels';
 $sites['elliottyoutube']['description'][] = 'Hotels in Auckland';
-$sites['elliottyoutube']['pagerank'] = '0';
+$sites['elliottyoutube']['pagerank'] = '3';
 $sites['elliottyoutube']['group'] = 'c';
 
 
@@ -982,7 +969,7 @@ $sites['hotsniper']['description'][] = 'eBay Sniping Tools';
 $sites['hotsniper']['description'][] = 'eBay Sniper';
 $sites['hotsniper']['description'][] = 'eBay Auction Sniper';
 $sites['hotsniper']['description'][] = 'eBay Snipe';
-$sites['hotsniper']['pagerank'] = '3';
+$sites['hotsniper']['pagerank'] = '0';
 $sites['hotsniper']['group'] = 'c';
 
 //19 - added 30/6/08
@@ -993,7 +980,7 @@ $sites['weight-loss-surgery-insurance']['description'][] = 'Weight Loss Surgery 
 $sites['weight-loss-surgery-insurance']['description'][] = 'Gastric Bypass Surgery Insurance';
 $sites['weight-loss-surgery-insurance']['description'][] = 'Weight Loss Surgery';
 $sites['weight-loss-surgery-insurance']['description'][] = 'Weight Loss';
-$sites['weight-loss-surgery-insurance']['pagerank'] = '3';
+$sites['weight-loss-surgery-insurance']['pagerank'] = '2';
 $sites['weight-loss-surgery-insurance']['group'] = 'c';
 
 //20 - added 4/7/08
@@ -1013,7 +1000,7 @@ $sites['arrowfield']['description'][] = 'Arrowtown Hotels';
 $sites['arrowfield']['description'][] = 'Arrowtown Accommodation';
 $sites['arrowfield']['description'][] = 'Arrowtown';
 $sites['arrowfield']['description'][] = 'Queenstown Apartments';
-$sites['arrowfield']['pagerank'] = '4';
+$sites['arrowfield']['pagerank'] = '3';
 $sites['arrowfield']['group'] = 'c';
 
 //22 - added 29/7/08
@@ -1033,7 +1020,7 @@ $sites['zoomin-drivenz']['description'] = array();
 $sites['zoomin-drivenz']['description'][] = 'Auckland Car Rental';
 $sites['zoomin-drivenz']['description'][] = 'Auckland Car Rentals';
 $sites['zoomin-drivenz']['description'][] = 'Car Rental Auckland';
-$sites['zoomin-drivenz']['pagerank'] = '3';
+$sites['zoomin-drivenz']['pagerank'] = '2';
 $sites['zoomin-drivenz']['group'] = 'c';
 
 //24 - added 9/8/08
@@ -1106,7 +1093,7 @@ $sites['toppestcontrol']['description'][] = 'Auckland Pest Control';
 $sites['toppestcontrol']['description'][] = 'Auckland Possum Control';
 $sites['toppestcontrol']['description'][] = 'Possum Traps';
 $sites['toppestcontrol']['description'][] = 'Pest Control Auckland';
-$sites['toppestcontrol']['pagerank'] = '0';
+$sites['toppestcontrol']['pagerank'] = '2';
 $sites['toppestcontrol']['group'] = 'c';
 
 //32 - added 25/6/09
@@ -1126,18 +1113,61 @@ $sites['eflower']['description'][] = 'Flower Delivery';
 $sites['eflower']['description'][] = 'Flowers Auckland';
 $sites['eflower']['description'][] = 'Florist Auckland';
 $sites['eflower']['description'][] = 'Florists Auckland';
-$sites['eflower']['pagerank'] = '1';
+$sites['eflower']['pagerank'] = '3';
 $sites['eflower']['group'] = 'c';
 
-//34 - added 21/8/2009
-$sites['cvb']['url'] = 'http://www.cvb.co.nz';
-$sites['cvb']['description'] = array();
-$sites['cvb']['description'][] = 'Jobs';
-$sites['cvb']['description'][] = 'New Zealand Jobs';
-$sites['cvb']['description'][] = 'Job Search';
-$sites['cvb']['description'][] = 'Find a Job';
-$sites['cvb']['pagerank'] = '4';
-$sites['cvb']['group'] = 'c';
+
+//34 - added 4/11/09
+$sites['162kings']['url'] = 'http://www.162kings.co.nz';
+$sites['162kings']['description'] = array();
+$sites['162kings']['description'][] = 'Christchurch Motels';
+$sites['162kings']['description'][] = 'Christchurch Motel';
+$sites['162kings']['description'][] = 'Christchurch Accommodation';
+$sites['162kings']['description'][] = 'Accommodation Christchurch New Zealand';
+$sites['162kings']['pagerank'] = '4';
+$sites['162kings']['group'] = 'c';
+
+
+//35 - added 5/11/09
+$sites['impactpr']['url'] = 'http://www.impactpr.co.nz';
+$sites['impactpr']['description'] = array();
+$sites['impactpr']['description'][] = 'Public Relations';
+$sites['impactpr']['description'][] = 'PR Agency';
+$sites['impactpr']['description'][] = 'Advertising Agency';
+$sites['impactpr']['description'][] = 'Marketing Consultants';
+$sites['impactpr']['pagerank'] = '3';
+$sites['impactpr']['group'] = 'c';
+
+//36 - added 4/11/09
+$sites['scrinfo']['url'] = 'http://www.seniorcarrentals.info';
+$sites['scrinfo']['description'] = array();
+$sites['scrinfo']['description'][] = 'NZ Car Hire';
+$sites['scrinfo']['description'][] = 'NZ Car Rental';
+$sites['scrinfo']['description'][] = 'New Zealand Car Rental';
+$sites['scrinfo']['description'][] = 'Car Rental New Zealand';
+$sites['scrinfo']['pagerank'] = '4';
+$sites['scrinfo']['group'] = 'c';
+
+//37 - added 5/11/09
+$sites['scrorg']['url'] = 'http://www.seniorcarrentals.org';
+$sites['scrorg']['description'] = array();
+$sites['scrorg']['description'][] = 'NZ Car Hire';
+$sites['scrorg']['description'][] = 'Car Hire NZ';
+$sites['scrorg']['description'][] = 'New Zealand Rental Car';
+$sites['scrorg']['description'][] = 'Car Rental New Zealand';
+$sites['scrorg']['pagerank'] = '0';
+$sites['scrorg']['group'] = 'c';
+
+//38 - added 6/11/09
+$sites['scrbiz']['url'] = 'http://www.seniorcarrentals.biz';
+$sites['scrbiz']['description'] = array();
+$sites['scrbiz']['description'][] = 'New Zealand Car Hire';
+$sites['scrbiz']['description'][] = 'Car Hire New Zealand';
+$sites['scrbiz']['description'][] = 'New Zealand Car Rental';
+$sites['scrbiz']['description'][] = 'Car Rental NZ';
+$sites['scrbiz']['description'][] = 'NZ Car Hire';
+$sites['scrbiz']['pagerank'] = '0';
+$sites['scrbiz']['group'] = 'c';
 
 /* Group D */
 //1
@@ -1146,7 +1176,7 @@ $sites['searchmasters']['description'] = array();
 $sites['searchmasters']['description'][] = 'SEO Training';
 $sites['searchmasters']['description'][] = 'SEO Consultant';
 $sites['searchmasters']['description'][] = 'Search Engine Optimisation';
-$sites['searchmasters']['pagerank'] = '4';
+$sites['searchmasters']['pagerank'] = '5';
 $sites['searchmasters']['group'] = 'd';
 
 //2
@@ -1171,7 +1201,7 @@ $sites['purewater']['description'] = array();
 $sites['purewater']['description'][] = 'Pure Water';
 $sites['purewater']['description'][] = 'Pure Water Corporation';
 $sites['purewater']['description'][] = 'Clean Water Systems';
-$sites['purewater']['pagerank'] = '2';
+$sites['purewater']['pagerank'] = '3';
 $sites['purewater']['group'] = 'd';
 
 //5
@@ -1216,18 +1246,18 @@ $sites['lifeenergy']['description'][] = 'EMF protection';
 $sites['lifeenergy']['description'][] = 'Energy';
 $sites['lifeenergy']['description'][] = 'Orgone';
 $sites['lifeenergy']['description'][] = 'Orgone Energy';
-$sites['lifeenergy']['pagerank'] = '1';
+$sites['lifeenergy']['pagerank'] = '3';
 $sites['lifeenergy']['group'] = 'd';
 
 
 //10 14 jan 2008 - rankings on google.co.nz
 $sites['nzimmigrationmedical']['url'] = 'http://www.nzimmigrationmedical.co.nz';
 $sites['nzimmigrationmedical']['description'] = array();
-$sites['nzimmigrationmedical']['description'][] = 'New Zealand Immigration Medical'; //52nd
-$sites['nzimmigrationmedical']['description'][] = 'New Zealand Immigration Medicals';//20th
-$sites['nzimmigrationmedical']['description'][] = 'New Zealand Immigration';//118
+$sites['nzimmigrationmedical']['description'][] = 'New Zealand Immigration Medical';
+$sites['nzimmigrationmedical']['description'][] = 'New Zealand Immigration Medicals';
+$sites['nzimmigrationmedical']['description'][] = 'New Zealand Immigration';
 $sites['nzimmigrationmedical']['description'][] = 'NZ Immigration';//49
-$sites['nzimmigrationmedical']['pagerank'] = '1';
+$sites['nzimmigrationmedical']['pagerank'] = '4';
 $sites['nzimmigrationmedical']['group'] = 'd';
 
 //11
@@ -1238,7 +1268,7 @@ $sites['contacts2go']['description'][] = 'Contact Lens';
 $sites['contacts2go']['description'][] = 'Cheap Contact Lens';
 $sites['contacts2go']['description'][] = 'Coloured Contact Lens';
 $sites['contacts2go']['description'][] = 'Bifocal Contact Lens';
-$sites['contacts2go']['pagerank'] = '1';
+$sites['contacts2go']['pagerank'] = '4';
 $sites['contacts2go']['group'] = 'd';
 
 //12
@@ -1248,7 +1278,7 @@ $sites['renewedreflections']['description'][] = 'Weight Loss Surgery';
 $sites['renewedreflections']['description'][] = 'Gastric Bypass Surgery';
 $sites['renewedreflections']['description'][] = 'Gastric Bypass';
 $sites['renewedreflections']['description'][] = 'Weight Loss';
-$sites['renewedreflections']['pagerank'] = '4';
+$sites['renewedreflections']['pagerank'] = '3';
 $sites['renewedreflections']['group'] = 'd';
 
 //13
@@ -1266,7 +1296,7 @@ $sites['canesdeervelvet']['description'] = array();
 $sites['canesdeervelvet']['description'][] = 'Deer Velvet';
 $sites['canesdeervelvet']['description'][] = 'Deer Antler Velvet';
 $sites['canesdeervelvet']['description'][] = 'Antler Velvet';
-$sites['canesdeervelvet']['pagerank'] = '2';
+$sites['canesdeervelvet']['pagerank'] = '3';
 $sites['canesdeervelvet']['group'] = 'd';
 
 //15
@@ -1284,7 +1314,7 @@ $sites['revize']['description'] = array();
 $sites['revize']['description'][] = 'Corneal Refractive Therapy';
 $sites['revize']['description'][] = 'Lasik Eye Surgery';
 $sites['revize']['description'][] = 'Laser Eye Surgery';
-$sites['revize']['pagerank'] = '2';
+$sites['revize']['pagerank'] = '3';
 $sites['revize']['group'] = 'd';
 
 //17
@@ -1294,7 +1324,7 @@ $sites['0800dumpme']['description'][] = 'Rubbish Removal';
 $sites['0800dumpme']['description'][] = 'Skip Bins';
 $sites['0800dumpme']['description'][] = 'Mini Skips';
 $sites['0800dumpme']['description'][] = 'Waste Removal';
-$sites['0800dumpme']['pagerank'] = '2';
+$sites['0800dumpme']['pagerank'] = '3';
 $sites['0800dumpme']['group'] = 'd';
 
 //18
@@ -1327,7 +1357,7 @@ $sites['quality']['description'][] = 'New Zealand Car Rentals';
 $sites['quality']['description'][] = 'Car Rentals New Zealand';
 $sites['quality']['description'][] = 'Car Rental New Zealand';
 $sites['quality']['description'][] = 'New Zealand Rental Cars';
-$sites['quality']['pagerank'] = '0';
+$sites['quality']['pagerank'] = '3';
 $sites['quality']['group'] = 'd';
 
 //21
@@ -1340,7 +1370,7 @@ $sites['senior']['description'][] = 'New Zealand Rental Cars';
 $sites['senior']['description'][] = 'Car Hire New Zealand';
 $sites['senior']['description'][] = 'New Zealand Car Rentals';
 $sites['senior']['description'][] = 'Car Rental New Zealand';
-$sites['senior']['pagerank'] = '1';
+$sites['senior']['pagerank'] = '2';
 $sites['senior']['group'] = 'd';
 
 
@@ -1368,7 +1398,7 @@ $sites['pcrbiz']['description'] = array();
 $sites['pcrbiz']['description'][] = 'Car Rental in New Zealand';
 $sites['pcrbiz']['description'][] = 'Car Hire in New Zealand';
 $sites['pcrbiz']['description'][] = 'Car Rental';
-$sites['pcrbiz']['pagerank'] = '1';
+$sites['pcrbiz']['pagerank'] = '2';
 $sites['pcrbiz']['group'] = 'd';
 
 //25 added 9/1/09
@@ -1376,7 +1406,7 @@ $sites['pcrinfo']['url'] = 'http://www.planetcarrentals.info';
 $sites['pcrinfo']['description'] = array();
 $sites['pcrinfo']['description'][] = 'New Zealand Car Rental';
 $sites['pcrinfo']['description'][] = 'Car Hire New Zealand';
-$sites['pcrinfo']['pagerank'] = '0';
+$sites['pcrinfo']['pagerank'] = '2';
 $sites['pcrinfo']['group'] = 'd';
 
 //26 added 9/1/09
@@ -1384,7 +1414,7 @@ $sites['pcrnet']['url'] = 'http://www.planetcarrentals.net';
 $sites['pcrnet']['description'] = array();
 $sites['pcrnet']['description'][] = 'Car Hire New Zealand';
 $sites['pcrnet']['description'][] = 'New Zealand Car Rental';
-$sites['pcrnet']['pagerank'] = '0';
+$sites['pcrnet']['pagerank'] = '2';
 $sites['pcrnet']['group'] = 'd';
 
 //27 added 9/1/09
@@ -1393,7 +1423,7 @@ $sites['prccom']['description'] = array();
 $sites['prccom']['description'][] = 'Rental Cars';
 $sites['prccom']['description'][] = 'Car Hire';
 $sites['prccom']['description'][] = 'Hire Cars';
-$sites['prccom']['pagerank'] = '0';
+$sites['prccom']['pagerank'] = '2';
 $sites['prccom']['group'] = 'd';
 
 //28 added 20/11/08
@@ -1402,7 +1432,7 @@ $sites['planetrentalcarsbiz']['description'] = array();
 $sites['planetrentalcarsbiz']['description'][] = 'Car Hire New Zealand';
 $sites['planetrentalcarsbiz']['description'][] = 'New Zealand Car Rental';
 $sites['planetrentalcarsbiz']['description'][] = 'Car Rental New Zealand';
-$sites['planetrentalcarsbiz']['pagerank'] = '0';
+$sites['planetrentalcarsbiz']['pagerank'] = '2';
 $sites['planetrentalcarsbiz']['group'] = 'd';
 
 //29 added 9/1/09
@@ -1411,7 +1441,7 @@ $sites['prcinfo']['description'] = array();
 $sites['prcinfo']['description'][] = 'Rental Cars';
 $sites['prcinfo']['description'][] = 'Car Hire';
 $sites['prcinfo']['description'][] = 'Hire Cars';
-$sites['prcinfo']['pagerank'] = '0';
+$sites['prcinfo']['pagerank'] = '2';
 $sites['prcinfo']['group'] = 'd';
 
 //30 added 9/1/09
@@ -1420,7 +1450,7 @@ $sites['prcnet']['description'] = array();
 $sites['prcnet']['description'][] = 'Car Rentals New Zealand';
 $sites['prcnet']['description'][] = 'New Zealand Car Rental';
 $sites['prcnet']['description'][] = 'Car Rental Christchurch';
-$sites['prcnet']['pagerank'] = '0';
+$sites['prcnet']['pagerank'] = '2';
 $sites['prcnet']['group'] = 'd';
 
 //31 added 9/1/09
@@ -1429,9 +1459,27 @@ $sites['scrnet']['description'] = array();
 $sites['scrnet']['description'][] = 'New Zealand Car Hire';
 $sites['scrnet']['description'][] = 'New Zealand Car Rental';
 $sites['scrnet']['description'][] = 'New Zealand Senior Car Rentals';
-$sites['scrnet']['pagerank'] = '0';
+$sites['scrnet']['pagerank'] = '2';
 $sites['scrnet']['group'] = 'd';
 
+//32 added 6/11/09 - temp for xmas season
+$sites['tctcb']['url'] = 'http://www.tctc.co.nz';
+$sites['tctcb']['description'] = array();
+$sites['tctcb']['description'][] = 'Xmas Trees';
+$sites['tctcb']['description'][] = 'Auckland Christmas Trees';
+$sites['tctcb']['description'][] = 'Christmas Trees';
+$sites['tctcb']['pagerank'] = '2';
+$sites['tctcb']['group'] = 'd';
+
+//33 added 6/11/09 - temp for xmas season
+$sites['apexpinesb']['url'] = 'http://www.apexpines.co.nz';
+$sites['apexpinesb']['description'] = array();
+$sites['apexpinesb']['description'][] = 'Xmas Trees';
+$sites['apexpinesb']['description'][] = 'Auckland Christmas Trees';
+$sites['apexpinesb']['description'][] = 'Christmas Trees';
+$sites['apexpinesb']['description'][] = 'Christmas Tree';
+$sites['apexpinesb']['pagerank'] = '3';
+$sites['apexpinesb']['group'] = 'd';
 
 
 
@@ -1468,7 +1516,7 @@ $sites['weightlossarticles']['group'] = 'x';
 $sites['centurian']['url'] = 'http://www.centuriansauna.co.nz';
 $sites['centurian']['description'] = array();
 $sites['centurian']['description'][] = 'Gay sauna NZ';
-$sites['centurian']['pagerank'] = '3';
+$sites['centurian']['pagerank'] = '4';
 $sites['centurian']['group'] = 'x';
 
 $sites['prematureejaculationindia']['url'] = 'http://www.prematureejaculation.co.in';
@@ -1482,7 +1530,7 @@ $sites['prematureejaculationindia']['description'][] = 'Cure Premature Ejaculati
 $sites['prematureejaculationindia']['description'][] = 'PE Cures';
 $sites['prematureejaculationindia']['description'][] = 'Cure PE';
 $sites['prematureejaculationindia']['description'][] = 'Mens Health';
-$sites['prematureejaculationindia']['pagerank'] = '2';
+$sites['prematureejaculationindia']['pagerank'] = '1';
 $sites['prematureejaculationindia']['group'] = 'x';
 
 $sites['prematureejaculationindia2']['url'] = 'http://www.prematureejaculation.in';
@@ -1496,26 +1544,16 @@ $sites['prematureejaculationindia2']['description'][] = 'Cure Premature Ejaculat
 $sites['prematureejaculationindia2']['description'][] = 'PE Cures';
 $sites['prematureejaculationindia2']['description'][] = 'Cure PE';
 $sites['prematureejaculationindia2']['description'][] = 'Mens Health';
-$sites['prematureejaculationindia2']['pagerank'] = '2';
+$sites['prematureejaculationindia2']['pagerank'] = '1';
 $sites['prematureejaculationindia2']['group'] = 'x';
 
-$sites['hairlosspreventions']['url'] = 'http://www.hairlosspreventions.net';
-$sites['hairlosspreventions']['description'] = array();
-$sites['hairlosspreventions']['description'][] = 'Hair loss preventions';
-$sites['hairlosspreventions']['pagerank'] = '1';
-$sites['hairlosspreventions']['group'] = 'x';
 
-$sites['quitsmokingarticles']['url'] = 'http://www.quitsmokingarticles.org';
-$sites['quitsmokingarticles']['description'] = array();
-$sites['quitsmokingarticles']['description'][] = 'Quit smoking articles';
-$sites['quitsmokingarticles']['pagerank'] = '1';
-$sites['quitsmokingarticles']['group'] = 'x';
 
 $sites['prematureejaculationorgnz']['url'] = 'http://www.prematureejaculation.org.nz';
 $sites['prematureejaculationorgnz']['description'] = array();
 $sites['prematureejaculationorgnz']['description'][] = 'Premature Ejaculation';
 $sites['prematureejaculationorgnz']['description'][] = 'PE';
-$sites['prematureejaculationorgnz']['pagerank'] = '2';
+$sites['prematureejaculationorgnz']['pagerank'] = '1';
 $sites['prematureejaculationorgnz']['group'] = 'x';
 
 /*
