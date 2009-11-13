@@ -153,6 +153,15 @@ $default_fd[$table][$field]['fd_help'] = 'High priority links will appear more p
 $default_fd[$table][$field]['fd_tabname'] = '';
 $default_fd[$table][$field]['fd_mode'] = 'standard';
 
+/* notes */
+$field = 'lx_notes';
+$default_fd[$table][$field]['fd_order'] = $o++;
+$default_fd[$table][$field]['fd_help'] = 'Notes';
+$default_fd[$table][$field]['fd_tabname'] = '';
+$default_fd[$table][$field]['fd_mode'] = 'standard';
+$default_fd[$table][$field]['fd_type'] = 'textarea';
+$default_fd[$table][$field]['fd_rows'] = '10';
+$default_fd[$table][$field]['fd_cols'] = '60';
 
 
 /* STATUS TAB */

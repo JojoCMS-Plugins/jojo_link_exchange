@@ -31,6 +31,7 @@ CREATE TABLE {$table} (
     `lx_image` varchar(255) NOT NULL default '',
     `lx_approvecode` varchar(40) NOT NULL,
     `lx_deletecode` varchar(40) NOT NULL,
+    `lx_notes` text NOT NULL,
     PRIMARY KEY  (`linkexchangeid`)
     ) TYPE=MyISAM ;
 ";
