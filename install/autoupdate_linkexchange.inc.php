@@ -38,7 +38,14 @@ $default_fd[$table][$field]['fd_mode'] = 'standard';
 $field = 'lx_dateadded';
 $default_fd[$table][$field]['fd_order'] = $o++;
 $default_fd[$table][$field]['fd_type'] = 'readonly';
-$default_fd[$table][$field]['fd_help'] = 'Date that the link was added';
+$default_fd[$table][$field]['fd_help'] = 'Date that the link was submitted';
+$default_fd[$table][$field]['fd_mode'] = 'standard';
+
+/* Last mod */
+$field = 'lx_lastmod';
+$default_fd[$table][$field]['fd_order'] = $o++;
+$default_fd[$table][$field]['fd_type'] = 'readonly';
+$default_fd[$table][$field]['fd_help'] = 'Date that the link was last updated';
 $default_fd[$table][$field]['fd_mode'] = 'standard';
 
 /* Name */
@@ -79,17 +86,6 @@ $default_fd[$table][$field]['fd_size'] = '40';
 $default_fd[$table][$field]['fd_help'] = 'The page where your link is hosted. Completing this field allows us to track the link and ensure it remains active. Please include the http://';
 $default_fd[$table][$field]['fd_mode'] = 'basic';
 
-/* Three Way Link URL */
-/*
-$field = 'lx_threewayurl';
-$default_fd[$table][$field]['fd_order'] = $o++;
-$default_fd[$table][$field]['fd_type'] = 'url';
-$default_fd[$table][$field]['fd_name'] = '3-way Link URL';
-$default_fd[$table][$field]['fd_required'] = 'no';
-$default_fd[$table][$field]['fd_size'] = '40';
-$default_fd[$table][$field]['fd_help'] = 'If this is a 3-way link, enter the URL that the reciprocal link points to. If not a 3-way link leave blank. Please include the http://';
-$default_fd[$table][$field]['fd_mode'] = 'basic';
-*/
 /* Description */
 $field = 'lx_desc';
 $default_fd[$table][$field]['fd_order'] = $o++;

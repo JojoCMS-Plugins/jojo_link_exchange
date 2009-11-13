@@ -55,7 +55,7 @@ function postLink()
                 $reciprocalurlExists = true;
             }
 
-            Jojo::insertQuery("INSERT INTO {linkexchange} SET lx_name=?, lx_linktext=?, lx_url=?, lx_reciprocalurl=?, lx_desc=?, lx_webmastername=?, lx_webmasteremail=?, lx_active='no', lx_priority='low', lx_approvecode=?, lx_deletecode=?", array($linktitle, $linktitle, $url, $reciprocalurl, $description, $name, $email, $approvecode, $deletecode));
+            Jojo::insertQuery("INSERT INTO {linkexchange} SET lx_name=?, lx_linktext=?, lx_url=?, lx_reciprocalurl=?, lx_desc=?, lx_webmastername=?, lx_webmasteremail=?, lx_active='no', lx_priority='low', lx_approvecode=?, lx_deletecode=?, lx_dateadded = now() ", array($linktitle, $linktitle, $url, $reciprocalurl, $description, $name, $email, $approvecode, $deletecode));
             $_SESSION['name']    = $name;
             $_SESSION['email']   = $email;
             $_SESSION['website'] = $url;

@@ -1,57 +1,93 @@
 <?php
+$table='linkexchange';
 
-    if (!Jojo::tableExists('linkexchange')) {
-        echo "Table <b>linkexchange</b> Does not exist - creating empty table<br />";
-        $query = "
-        CREATE TABLE {linkexchange} (
-            `linkexchangeid` int(11) NOT NULL auto_increment,
-            `lx_name` varchar(255) NOT NULL default '',
-            `lx_linktext` varchar(255) NOT NULL default '',
-            `lx_url` varchar(255) NOT NULL default '',
-            `lx_desc` text NOT NULL,
-            `lx_hits` int(11) NOT NULL default '0',
-            `lx_categoryid` int(11) NOT NULL default '0',
-            `lx_phone` varchar(100) NOT NULL default '',
-            `lx_order` int(11) NOT NULL default '0',
-            `lx_pagerank` int(11) NOT NULL default '0',
-            `lx_linksonpage` int(11) NOT NULL default '0',
-            `lx_reciprocalurl` varchar(255) NOT NULL default '',
-            `lx_threewayurl` varchar(255) NOT NULL default '',
-            `lx_dateadded` TIMESTAMP ON UPDATE CURRENT_TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-            `lx_lastchecked` date NOT NULL default '0000-00-00',
-            `lx_status` enum('ok','missing','blocked') NOT NULL default 'ok',
-            `lx_active` enum('yes','no') NOT NULL default 'yes',
-            `lx_webmastername` varchar(255) NOT NULL default '',
-            `lx_webmasteremail` varchar(255) NOT NULL default '',
-            `lx_body` text NOT NULL,
-            `lx_bbbody` text NOT NULL,
-            `lx_priority` enum('high','medium','low') NOT NULL default 'low',
-            `lx_image` varchar(255) NOT NULL default '',
-            `lx_approvecode` varchar(40) NOT NULL,
-            `lx_deletecode` varchar(40) NOT NULL,
-            PRIMARY KEY  (`linkexchangeid`)
-            ) TYPE=MyISAM ;
-        ";
-        Jojo::selectQuery($query);
+//drop default so can have the lastmod as a datetimestamp
+$result=Jojo::structureQuery("ALTER TABLE {$table} CHANGE `lx_dateadded` `lx_dateadded` TIMESTAMP NOT NULL DEFAULT 0");
+
+$query = "
+CREATE TABLE {$table} (
+    `linkexchangeid` int(11) NOT NULL auto_increment,
+    `lx_name` varchar(255) NOT NULL default '',
+    `lx_linktext` varchar(255) NOT NULL default '',
+    `lx_url` varchar(255) NOT NULL default '',
+    `lx_desc` text NOT NULL,
+    `lx_hits` int(11) NOT NULL default '0',
+    `lx_categoryid` int(11) NOT NULL default '0',
+    `lx_phone` varchar(100) NOT NULL default '',
+    `lx_order` int(11) NOT NULL default '0',
+    `lx_pagerank` int(11) NOT NULL default '0',
+    `lx_linksonpage` int(11) NOT NULL default '0',
+    `lx_reciprocalurl` varchar(255) NOT NULL default '',
+    `lx_dateadded` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+    `lx_lastmod` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP,
+    `lx_lastchecked` date NOT NULL default '0000-00-00',
+    `lx_status` enum('ok','missing','blocked') NOT NULL default 'ok',
+    `lx_active` enum('yes','no') NOT NULL default 'yes',
+    `lx_webmastername` varchar(255) NOT NULL default '',
+    `lx_webmasteremail` varchar(255) NOT NULL default '',
+    `lx_body` text NOT NULL,
+    `lx_bbbody` text NOT NULL,
+    `lx_priority` enum('high','medium','low') NOT NULL default 'low',
+    `lx_image` varchar(255) NOT NULL default '',
+    `lx_approvecode` varchar(40) NOT NULL,
+    `lx_deletecode` varchar(40) NOT NULL,
+    PRIMARY KEY  (`linkexchangeid`)
+    ) TYPE=MyISAM ;
+";
+
+$result = Jojo::checkTable($table, $query);
+
+/* Output result */
+if (isset($result['created'])) {
+    echo sprintf($table.": Table <b>%s</b> Does not exist - created empty table.<br />", $table);
+}
+
+if (isset($result['added'])) {
+    foreach ($result['added'] as $col => $v) {
+        echo sprintf($table.": Table <b>%s</b> column <b>%s</b> Does not exist - added.<br />", $table, $col);
     }
-    //CATEGORY
-    if (!Jojo::tableExists('linkexchangecategory')) {
-        echo "Table <b>linkexchangecategory</b> Does not exist - creating empty table<br />";
-        $query = "
-            CREATE TABLE {linkexchangecategory} (
-            `linkexchangecategoryid` int(11) NOT NULL auto_increment,
-            `lc_name` varchar(255) NOT NULL default '',
-            `lc_desc` varchar(255) NOT NULL default '',
-            `lc_body` text NOT NULL,
-            `lc_seotitle` varchar(255) NOT NULL default '',
-            `lc_order` int(11) NOT NULL default '0',
-            `lc_parent` int(11) NOT NULL default '0',
-            `lc_image` varchar(255) NOT NULL default '',
-            PRIMARY KEY  (`linkexchangecategoryid`)
-            ) TYPE=MyISAM AUTO_INCREMENT=1 ;
-        ";
-        Jojo::selectQuery($query);
+}
+
+if (isset($result['different'])) Jojo::printTableDifference($table, $result['different']);
+
+/* pageurls is a spammy field we no longer need */
+if (Jojo::fieldexists($table,'lx_threewayurl')) {
+    echo "Removed <b>lx_threewayurl</b> from <b>$table</b><br />";
+    Jojo::structureQuery("ALTER TABLE {$table} DROP `lx_threewayurl` ;");
+}
+
+
+//CATEGORY
+$table='linkexchangecategory';
+    $query = "
+        CREATE TABLE {$table} (
+        `linkexchangecategoryid` int(11) NOT NULL auto_increment,
+        `lc_name` varchar(255) NOT NULL default '',
+        `lc_desc` varchar(255) NOT NULL default '',
+        `lc_body` text NOT NULL,
+        `lc_bbody` text NOT NULL,
+        `lc_seotitle` varchar(255) NOT NULL default '',
+        `lc_order` int(11) NOT NULL default '0',
+        `lc_parent` int(11) NOT NULL default '0',
+        `lc_image` varchar(255) NOT NULL default '',
+        PRIMARY KEY  (`linkexchangecategoryid`)
+        ) TYPE=MyISAM AUTO_INCREMENT=1 ;
+    ";
+
+$result = Jojo::checkTable($table, $query);
+
+/* Output result */
+if (isset($result['created'])) {
+    echo sprintf($table.": Table <b>%s</b> Does not exist - created empty table.<br />", $table);
+}
+
+if (isset($result['added'])) {
+    foreach ($result['added'] as $col => $v) {
+        echo sprintf($table.": Table <b>%s</b> column <b>%s</b> Does not exist - added.<br />", $table, $col);
     }
+}
+
+if (isset($result['different'])) Jojo::printTableDifference($table, $result['different']);
 
 
 /* convert any old lx pages to the new plugin */
