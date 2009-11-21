@@ -2,7 +2,7 @@
 $table='linkexchange';
 
 //drop default so can have the lastmod as a datetimestamp
-$result=Jojo::structureQuery("ALTER TABLE {$table} CHANGE `lx_dateadded` `lx_dateadded` TIMESTAMP NOT NULL DEFAULT 0");
+if (Jojo::tableexists($table)) $result=Jojo::structureQuery("ALTER TABLE {$table} CHANGE `lx_dateadded` `lx_dateadded` TIMESTAMP NOT NULL DEFAULT 0");
 
 $query = "
 CREATE TABLE {$table} (
