@@ -25,17 +25,17 @@ $_provides['pluginClasses'] = array(
         );
 
 /* Register URI patterns */
-if(_DIRECTORYNAME<>"directory")
+if(_DIRECTORYNAME != "directory")
   Jojo::registerURI("[action:directory]/[id:integer]/[string]",         'Jojo_Plugin_Jojo_link_exchange'); // "directory/123/name-of-category/"
 
-if(_LINKDIRECT<>'yes'){
-  if(_DIRECTORYLISTINGNAME<>"directory-listing")
+if(_LINKDIRECT != 'yes'){
+  if(_DIRECTORYLISTINGNAME != "directory-listing")
     Jojo::registerURI("[action:directory-listing]/[id:integer]/[string]", 'Jojo_Plugin_Jojo_link_exchange'); // "directory-listing/123/name-of-site/"
 }
 
 Jojo::registerURI("[action:"._DIRECTORYNAME."]/[id:integer]/[string]",         'Jojo_Plugin_Jojo_link_exchange'); // "directory/123/name-of-category/"
 
-if(_LINKDIRECT<>'yes'){
+if(_LINKDIRECT != 'yes'){
   Jojo::registerURI("[action:"._DIRECTORYLISTINGNAME."]/[id:integer]/[string]", 'Jojo_Plugin_Jojo_link_exchange'); // "directory-listing/123/name-of-site/"
 }
 

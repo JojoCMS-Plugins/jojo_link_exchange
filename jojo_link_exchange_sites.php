@@ -1027,9 +1027,7 @@ $sites['zoomin-drivenz']['group'] = 'c';
 $sites['findadnz']['url'] = 'http://www.finda.co.nz/business/listing/1qsy/drivenz-rental-vehicles-ltd/';
 $sites['findadnz']['displayurl'] = 'http://www.finda.co.nz/..drivenz../';
 $sites['findadnz']['description'] = array();
-$sites['findadnz']['description'][] = 'Auckland Car Rental';
-$sites['findadnz']['description'][] = 'Auckland Car Rentals';
-$sites['findadnz']['description'][] = 'Car Rental Auckland';
+$sites['findadnz']['description'][] = 'Car Hire New Zealand';
 $sites['findadnz']['pagerank'] = '3';
 $sites['findadnz']['group'] = 'c';
 
@@ -1471,15 +1469,15 @@ $sites['tctcb']['description'][] = 'Christmas Trees';
 $sites['tctcb']['pagerank'] = '2';
 $sites['tctcb']['group'] = 'd';
 
-//33 added 6/11/09 - temp for xmas season
-$sites['apexpinesb']['url'] = 'http://www.apexpines.co.nz';
-$sites['apexpinesb']['description'] = array();
-$sites['apexpinesb']['description'][] = 'Xmas Trees';
-$sites['apexpinesb']['description'][] = 'Auckland Christmas Trees';
-$sites['apexpinesb']['description'][] = 'Christmas Trees';
-$sites['apexpinesb']['description'][] = 'Christmas Tree';
-$sites['apexpinesb']['pagerank'] = '3';
-$sites['apexpinesb']['group'] = 'd';
+//33 added 7/1/10
+$sites['qaa']['url'] = 'http://www.queenstownapartmentaccommodation.com/';
+$sites['qaa']['description'] = array();
+$sites['qaa']['description'][] = 'Queenstown Apartments';
+$sites['qaa']['description'][] = 'Queenstown Accommodation';
+$sites['qaa']['description'][] = 'Accommodation Queenstown';
+$sites['qaa']['description'][] = 'Accommodation in Queenstown';
+$sites['qaa']['pagerank'] = '0';
+$sites['qaa']['group'] = 'd';
 
 
 

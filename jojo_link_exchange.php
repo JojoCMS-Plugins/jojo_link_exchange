@@ -177,7 +177,7 @@ function postLink()
                 /* email the webmaster */
                 $message = "This is an automated message from "._SITEURL . "\n\n";
                 $message .= "We have just approved a link exchange request with " . $active[$i]['lx_url']." that was submitted recently by " . $active[$i]['lx_webmastername'].".\n\n";
-                if(_LINKDIRECT<>"yes") {
+                if(_LINKDIRECT != "yes") {
                     $message .= "You will find your link on the following page...\n";
                     $message .= _SITEURL . '/'. Jojo::rewrite(_DIRECTORYLISTINGNAME,$active[$i]['linkexchangeid'],$active[$i]['lx_name'],'') . "\n\n";
                     $message .= "Because the page has just been created, it has no PageRank, however your link is the only external link on the page, and the page will usually get indexed by Google fairly quickly.\n\n";
@@ -230,7 +230,7 @@ function postLink()
             $smarty->assign('category', $category);
             $linkexchanges = Jojo::selectQuery("SELECT * FROM {linkexchange} WHERE lx_active='yes' ".$where."", array($id));
 
-            if(_LINKDIRECT<>"yes") {
+            if(_LINKDIRECT != "yes") {
               $n = count($linkexchanges);
               for ($i=0;$i<$n;$i++) {
                   $linkexchanges[$i]['internalurl'] = Jojo::rewrite(_DIRECTORYLISTINGNAME, $linkexchanges[$i]['linkexchangeid'], $linkexchanges[$i]['lx_name'], '');
@@ -297,7 +297,7 @@ function postLink()
             /* Link Exchange Homepage */
             $linkexchanges = Jojo::selectQuery("SELECT * FROM {linkexchange} WHERE lx_priority='high'");
 
-            if(_LINKDIRECT<>"yes") {
+            if(_LINKDIRECT != "yes") {
               $n = count($linkexchanges);
               for ($i=0;$i<$n;$i++) {
                   $linkexchanges[$i]['internalurl'] = Jojo::rewrite(_DIRECTORYLISTINGNAME, $linkexchanges[$i]['linkexchangeid'], $linkexchanges[$i]['lx_name'], '');
@@ -332,7 +332,7 @@ function postLink()
         }
 
         /* Link Exchanges */
-        if(_LINKDIRECT<>'yes'){
+        if(_LINKDIRECT != 'yes'){
         $linkexchanges = Jojo::selectQuery("SELECT * FROM {linkexchange} WHERE lx_active='yes' ORDER BY lx_name");
         $n = count($linkexchanges);
         if ($n < $limit) {
@@ -384,7 +384,7 @@ function postLink()
         }
 
         /* exchanges */
-        if(_LINKDIRECT<>'yes'){
+        if(_LINKDIRECT != 'yes'){
         $data = Jojo::selectQuery("SELECT * FROM {linkexchange} WHERE lx_active='yes'");
         $n = count($data);
         for ($i=0; $i<$n; $i++) {
@@ -404,8 +404,8 @@ function postLink()
         $id = Util::getFormData('id', 0);
         $action = Util::getFormData('action', 'lx');
 
-        if($action=="directory" and _DIRECTORYNAME<>"directory") $action = _DIRECTORYNAME;
-        if($action=="directory-listing" and _DIRECTORYLISTINGNAME<>"directory-listing") $action = _DIRECTORYLISTINGNAME;
+        if($action=="directory" and _DIRECTORYNAME != "directory") $action = _DIRECTORYNAME;
+        if($action=="directory-listing" and _DIRECTORYLISTINGNAME != "directory-listing") $action = _DIRECTORYLISTINGNAME;
 
         if ($action == 'lx-admin' || $action == 'lx-request') {
             return _PROTOCOL.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
