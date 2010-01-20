@@ -1460,14 +1460,12 @@ $sites['scrnet']['description'][] = 'New Zealand Senior Car Rentals';
 $sites['scrnet']['pagerank'] = '2';
 $sites['scrnet']['group'] = 'd';
 
-//32 added 6/11/09 - temp for xmas season
-$sites['tctcb']['url'] = 'http://www.tctc.co.nz';
-$sites['tctcb']['description'] = array();
-$sites['tctcb']['description'][] = 'Xmas Trees';
-$sites['tctcb']['description'][] = 'Auckland Christmas Trees';
-$sites['tctcb']['description'][] = 'Christmas Trees';
-$sites['tctcb']['pagerank'] = '2';
-$sites['tctcb']['group'] = 'd';
+//32 added 21/1/10
+$sites['moviesnz']['url'] = 'http://www.moviesnz.com';
+$sites['moviesnz']['description'] = array();
+$sites['moviesnz']['description'][] = 'Production Services';
+$sites['moviesnz']['pagerank'] = '4';
+$sites['moviesnz']['group'] = 'd';
 
 //33 added 7/1/10
 $sites['qaa']['url'] = 'http://www.queenstownapartmentaccommodation.com/';
