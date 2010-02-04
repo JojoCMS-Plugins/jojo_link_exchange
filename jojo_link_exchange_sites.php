@@ -1167,6 +1167,16 @@ $sites['scrbiz']['description'][] = 'NZ Car Hire';
 $sites['scrbiz']['pagerank'] = '0';
 $sites['scrbiz']['group'] = 'c';
 
+
+//39 - added 4/2/10
+$sites['rer']['url'] = 'http://www.rer.co.nz';
+$sites['rer']['description'] = array();
+$sites['rer']['description'][] = 'Rental Properties Auckland';
+$sites['rer']['description'][] = 'Houses for Rent Auckland';
+$sites['rer']['description'][] = 'Auckland Property Management';
+$sites['rer']['pagerank'] = '4';
+$sites['rer']['group'] = 'c';
+
 /* Group D */
 //1
 $sites['searchmasters']['url'] = 'http://www.searchmasters.co.nz';
