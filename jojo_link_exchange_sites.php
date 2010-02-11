@@ -552,16 +552,15 @@ $sites['spacestationstorage']['description'][] = 'Storage Remuera';
 $sites['spacestationstorage']['pagerank'] = '3';
 $sites['spacestationstorage']['group'] = 'b';
 
-//14 - added 31/3/08
-$sites['carlislemason']['url'] = 'http://www.carlislemason.co.nz';
-$sites['carlislemason']['description'] = array();
-$sites['carlislemason']['description'][] = 'Auckland Optometrists';
-$sites['carlislemason']['description'][] = 'Auckland Optometrist';
-$sites['carlislemason']['description'][] = 'Auckland Optician';
-$sites['carlislemason']['description'][] = 'Optometrist Auckland';
-$sites['carlislemason']['description'][] = 'Optometrists Auckland';
-$sites['carlislemason']['pagerank'] = '3';
-$sites['carlislemason']['group'] = 'b';
+//14 - added 11/2/10
+$sites['haran']['url'] = 'http://www.haran.co.nz';
+$sites['haran']['description'] = array();
+$sites['haran']['description'][] = 'Wellington Wedding Photographer';
+$sites['haran']['description'][] = 'Wellington Photographer';
+$sites['haran']['description'][] = 'Wellington Wedding Photography';
+$sites['haran']['pagerank'] = '2';
+$sites['haran']['group'] = 'b';
+
 
 //15 - added 30/4/08
 $sites['shopfortoys']['url'] = 'http://www.shopfortoys.co.nz';
