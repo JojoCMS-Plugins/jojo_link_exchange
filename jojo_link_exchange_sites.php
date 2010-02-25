@@ -772,6 +772,15 @@ $sites['hasslefreetours']['description'][] = 'New Zealand Vacations';
 $sites['hasslefreetours']['pagerank'] = '4';
 $sites['hasslefreetours']['group'] = 'b';
 
+//37 - added 25/2/10
+$sites['mirrorwave']['url'] = 'http://www.mirrorwave.com';
+$sites['mirrorwave']['description'] = array();
+$sites['mirrorwave']['description'][] = 'Customer Satisfaction';
+$sites['mirrorwave']['description'][] = 'Customer Satisfaction Surveys';
+$sites['mirrorwave']['description'][] = 'Customer Feedback';
+$sites['mirrorwave']['description'][] = 'Employee Surveys';
+$sites['mirrorwave']['pagerank'] = '2';
+$sites['mirrorwave']['group'] = 'b';
 
 
 /* Group C */
