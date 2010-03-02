@@ -782,6 +782,25 @@ $sites['mirrorwave']['description'][] = 'Employee Surveys';
 $sites['mirrorwave']['pagerank'] = '2';
 $sites['mirrorwave']['group'] = 'b';
 
+//38 - added 3/3/10
+$sites['terracyclic']['url'] = 'http://www.terracyclic.com';
+$sites['terracyclic']['description'] = array();
+$sites['terracyclic']['description'][] = 'Sanitary Napkin Disposal';
+$sites['terracyclic']['description'][] = 'Sanitary Napkin Receptacle';
+$sites['terracyclic']['description'][] = 'Sanitary Napkin Bag';
+$sites['terracyclic']['pagerank'] = '2';
+$sites['terracyclic']['group'] = 'b';
+
+//39 - added 3/3/10
+$sites['powderroom']['url'] = 'http://www.powderroom.co.nz';
+$sites['powderroom']['description'] = array();
+$sites['powderroom']['description'][] = 'Sanitary Bins';
+$sites['powderroom']['description'][] = 'Sanitary Disposal Unit';
+$sites['powderroom']['description'][] = 'Sanitary Hygiene';
+$sites['powderroom']['description'][] = 'Hand Dryers';
+$sites['powderroom']['pagerank'] = '2';
+$sites['powderroom']['group'] = 'b';
+
 
 /* Group C */
 //1
@@ -1486,13 +1505,13 @@ $sites['moviesnz']['pagerank'] = '4';
 $sites['moviesnz']['group'] = 'd';
 
 //33 added 7/1/10
-$sites['qaa']['url'] = 'http://www.queenstownapartmentaccommodation.com/';
+$sites['qaa']['url'] = 'http://www.queenstownapartmentaccommodation.com';
 $sites['qaa']['description'] = array();
 $sites['qaa']['description'][] = 'Queenstown Apartments';
 $sites['qaa']['description'][] = 'Queenstown Accommodation';
 $sites['qaa']['description'][] = 'Accommodation Queenstown';
 $sites['qaa']['description'][] = 'Accommodation in Queenstown';
-$sites['qaa']['pagerank'] = '0';
+$sites['qaa']['pagerank'] = '1';
 $sites['qaa']['group'] = 'd';
 
 
