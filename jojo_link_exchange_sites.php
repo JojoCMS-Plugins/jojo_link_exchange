@@ -1514,6 +1514,15 @@ $sites['qaa']['description'][] = 'Accommodation in Queenstown';
 $sites['qaa']['pagerank'] = '1';
 $sites['qaa']['group'] = 'd';
 
+//34 added 12/3/10
+$sites['urinefree']['url'] = 'http://www.urinefree.co.nz';
+$sites['urinefree']['description'] = array();
+$sites['urinefree']['description'][] = 'Cat Urine';
+$sites['urinefree']['description'][] = 'Urine Off';
+$sites['urinefree']['description'][] = 'Urine Smell';
+$sites['urinefree']['description'][] = 'Cat Urine Odor Remover';
+$sites['urinefree']['pagerank'] = '1';
+$sites['urinefree']['group'] = 'd';
 
 
 /* Group X - the stuff you might not want to link to */
