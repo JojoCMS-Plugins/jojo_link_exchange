@@ -717,14 +717,6 @@ $sites['metromotel']['description'][] = 'Motels in Christchurch';
 $sites['metromotel']['pagerank'] = '3';
 $sites['metromotel']['group'] = 'b';
 
-//31 - added 10/4/09
-$sites['yesido']['url'] = 'http://www.yesido.co.nz';
-$sites['yesido']['description'] = array();
-$sites['yesido']['description'][] = 'Wedding Dresses';
-$sites['yesido']['description'][] = 'Wedding Invitations';
-$sites['yesido']['description'][] = 'Wedding Cakes';
-$sites['yesido']['pagerank'] = '2';
-$sites['yesido']['group'] = 'b';
 
 //32 - added 10/4/09
 $sites['camelot']['url'] = 'http://www.camelot.co.nz';
