@@ -717,6 +717,15 @@ $sites['metromotel']['description'][] = 'Motels in Christchurch';
 $sites['metromotel']['pagerank'] = '3';
 $sites['metromotel']['group'] = 'b';
 
+//31 - added 24/3/10
+$sites['keys']['url'] = 'http://www.keys.co.nz';
+$sites['keys']['description'] = array();
+$sites['keys']['description'][] = 'Locksmith';
+$sites['keys']['description'][] = 'Locksmith Auckland';
+$sites['keys']['description'][] = 'Locksmiths';
+$sites['keys']['pagerank'] = '3';
+$sites['keys']['group'] = 'b';
+
 
 //32 - added 10/4/09
 $sites['camelot']['url'] = 'http://www.camelot.co.nz';
