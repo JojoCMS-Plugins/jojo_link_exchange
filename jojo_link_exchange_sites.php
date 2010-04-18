@@ -1205,6 +1205,16 @@ $sites['rer']['description'][] = 'Auckland Property Management';
 $sites['rer']['pagerank'] = '4';
 $sites['rer']['group'] = 'c';
 
+//40 - added 18/4/10
+
+$sites['time2dinec']['url'] = 'http://www.time2dine.co.nz';
+$sites['time2dinec']['description'] = array();
+$sites['time2dinec']['description'][] = 'Auckland Restaurants';
+$sites['time2dinec']['description'][] = 'Restaurants Auckland';
+$sites['time2dinec']['pagerank'] = '4';
+$sites['time2dinec']['group'] = 'c';
+
+
 /* Group D */
 //1
 $sites['searchmasters']['url'] = 'http://www.searchmasters.co.nz';
