@@ -1206,13 +1206,20 @@ $sites['rer']['pagerank'] = '4';
 $sites['rer']['group'] = 'c';
 
 //40 - added 18/4/10
-
 $sites['time2dinec']['url'] = 'http://www.time2dine.co.nz';
 $sites['time2dinec']['description'] = array();
 $sites['time2dinec']['description'][] = 'Auckland Restaurants';
 $sites['time2dinec']['description'][] = 'Restaurants Auckland';
 $sites['time2dinec']['pagerank'] = '4';
 $sites['time2dinec']['group'] = 'c';
+
+//41 - added 29/4/10
+$sites['rimufurniture']['url'] = 'http://www.rimufurniture.co.nz';
+$sites['rimufurniture']['description'] = array();
+$sites['rimufurniture']['description'][] = 'Rimu Furniture';
+$sites['rimufurniture']['description'][] = 'Rimu Dining Table';
+$sites['rimufurniture']['pagerank'] = '0';
+$sites['rimufurniture']['group'] = 'c';
 
 
 /* Group D */
