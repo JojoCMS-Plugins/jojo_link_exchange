@@ -30,7 +30,6 @@
 <div>
 
     <div>
-        <h2>Sites of Interest</h2>
     {if $linkexchangecategorys}
         <b>Categories</b><br />
         <ul>
