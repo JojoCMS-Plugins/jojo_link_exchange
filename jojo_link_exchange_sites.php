@@ -64,15 +64,14 @@ $sites['winephotoshop']['pagerank'] = '2';
 $sites['winephotoshop']['group'] = 'a';
 
 //6
-$sites['esapts']['url'] = 'http://www.esapts.co.nz';
-$sites['esapts']['description'] = array();
-$sites['esapts']['description'][] = 'Auckland Hotel';
-$sites['esapts']['description'][] = 'Auckland Apartments';
-$sites['esapts']['description'][] = 'Auckland Hotels';
-$sites['esapts']['description'][] = 'Hotel Auckland';
-$sites['esapts']['pagerank'] = '4';
-$sites['esapts']['group'] = 'a';
-
+$sites['esplanade']['url'] = 'http://www.esplanadequeenstown.com';
+$sites['esplanade']['description'] = array();
+$sites['esplanade']['description'][] = 'Queenstown Apartment';
+$sites['esplanade']['description'][] = 'Queenstown Apartments';
+$sites['esplanade']['description'][] = 'Queenstown Accommodation';
+$sites['esplanade']['description'][] = 'Accommodation Queenstown';
+$sites['esplanade']['pagerank'] = '0';
+$sites['esplanade']['group'] = 'a';
 
 //7
 $sites['livedesign']['url'] = 'http://www.livedesign.co.nz';
