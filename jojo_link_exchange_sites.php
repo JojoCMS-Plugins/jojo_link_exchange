@@ -209,16 +209,6 @@ $sites['capsaicin']['description'][] = 'PHP Web hosting';
 $sites['capsaicin']['pagerank'] = '3';
 $sites['capsaicin']['group'] = 'a';
 
-//17
-$sites['riverglade']['url'] = 'http://www.riverglade.co.nz';
-$sites['riverglade']['description'] = array();
-$sites['riverglade']['description'][] = 'Hamilton Bed and Breakfast';
-$sites['riverglade']['description'][] = 'Hamilton B&B';
-$sites['riverglade']['description'][] = 'Bed and Breakfast in Hamilton';
-$sites['riverglade']['description'][] = 'Hamilton Bed and Breakfasts';
-$sites['riverglade']['description'][] = 'Bed and Breakfast Hamilton';
-$sites['riverglade']['pagerank'] = '3';
-$sites['riverglade']['group'] = 'a';
 
 //18
 $sites['cookwareessentials']['url'] = 'http://www.cookwareessentials.co.nz';
