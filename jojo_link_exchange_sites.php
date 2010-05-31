@@ -791,6 +791,15 @@ $sites['powderroom']['description'][] = 'Hand Dryers';
 $sites['powderroom']['pagerank'] = '2';
 $sites['powderroom']['group'] = 'b';
 
+//40 - added 31/5/10
+$sites['money4mob']['url'] = 'http://www.money4mobiles.co.nz';
+$sites['money4mob']['description'] = array();
+$sites['money4mob']['description'][] = 'Mobile Phones';
+$sites['money4mob']['description'][] = 'Money for Mobiles';
+$sites['money4mob']['description'][] = 'Cell Phones';
+$sites['money4mob']['pagerank'] = '0';
+$sites['money4mob']['group'] = 'b';
+
 
 /* Group C */
 //1
