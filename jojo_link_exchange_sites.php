@@ -800,6 +800,14 @@ $sites['money4mob']['description'][] = 'Cell Phones';
 $sites['money4mob']['pagerank'] = '0';
 $sites['money4mob']['group'] = 'b';
 
+//41 - added 22/6/10
+$sites['wrappz']['url'] = 'http://www.wrappz.co.nz';
+$sites['wrappz']['description'] = array();
+$sites['wrappz']['description'][] = 'iPhone Covers';
+$sites['wrappz']['description'][] = 'iPod Covers';
+$sites['wrappz']['description'][] = 'Laptop Covers';
+$sites['wrappz']['pagerank'] = '0';
+$sites['wrappz']['group'] = 'b';
 
 /* Group C */
 //1
