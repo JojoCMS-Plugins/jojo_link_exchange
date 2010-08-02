@@ -1,8 +1,8 @@
 <?php
 $table='linkexchange';
 
-//drop default so can have the lastmod as a datetimestamp
-if (Jojo::tableexists($table)) $result=Jojo::structureQuery("ALTER TABLE {$table} CHANGE `lx_dateadded` `lx_dateadded` TIMESTAMP NOT NULL DEFAULT 0");
+//drop default so can have the lastmod as a datetimestamp - uncomment if you need it run
+//if (Jojo::tableexists($table)) $result=Jojo::structureQuery("ALTER TABLE {$table} CHANGE `lx_dateadded` `lx_dateadded` TIMESTAMP NOT NULL DEFAULT 0");
 
 $query = "
 CREATE TABLE {$table} (
