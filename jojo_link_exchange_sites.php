@@ -809,6 +809,15 @@ $sites['wrappz']['description'][] = 'Laptop Covers';
 $sites['wrappz']['pagerank'] = '0';
 $sites['wrappz']['group'] = 'b';
 
+//42 - added 6/8/10
+$sites['abackpack']['url'] = 'http://www.aucklandbackpackers.com';
+$sites['abackpack']['description'] = array();
+$sites['abackpack']['description'][] = 'Auckland Backpackers';
+$sites['abackpack']['description'][] = 'Auckland Hostels';
+$sites['abackpack']['pagerank'] = '0';
+$sites['abackpack']['group'] = 'b';
+
+
 /* Group C */
 //1
 $sites['ragepank']['url'] = 'http://www.ragepank.com';
