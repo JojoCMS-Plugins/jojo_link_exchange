@@ -817,6 +817,30 @@ $sites['abackpack']['description'][] = 'Auckland Hostels';
 $sites['abackpack']['pagerank'] = '0';
 $sites['abackpack']['group'] = 'b';
 
+//43 - added 13/8/10
+$sites['worldmoving']['url'] = 'http://www.worldmoving.co.nz';
+$sites['worldmoving']['description'] = array();
+$sites['worldmoving']['description'][] = 'Furniture Movers';
+$sites['worldmoving']['description'][] = 'Furniture Removal';
+$sites['worldmoving']['description'][] = 'Moving Companies';
+$sites['worldmoving']['pagerank'] = '4';
+$sites['worldmoving']['group'] = 'b';
+
+//44 - added 13/8/10
+$sites['australianmovers']['url'] = 'http://www.australianmovers.co.nz';
+$sites['australianmovers']['description'] = array();
+$sites['australianmovers']['description'][] = 'Moving to Australia';
+$sites['australianmovers']['description'][] = 'Shipping to Australia';
+$sites['australianmovers']['pagerank'] = '2';
+$sites['australianmovers']['group'] = 'b';
+
+//45 - added 6/8/10
+$sites['britishmovers']['url'] = 'http://www.britishmovers.co.nz/';
+$sites['britishmovers']['description'] = array();
+$sites['britishmovers']['description'][] = 'Shipping to UK';
+$sites['britishmovers']['description'][] = 'Moving to UK';
+$sites['britishmovers']['pagerank'] = '2';
+$sites['britishmovers']['group'] = 'b';
 
 /* Group C */
 //1
