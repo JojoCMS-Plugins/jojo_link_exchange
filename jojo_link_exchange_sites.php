@@ -421,6 +421,15 @@ $sites['elenab']['description'][] = 'Elena';
 $sites['elenab']['pagerank'] = '2';
 $sites['elenab']['group'] = 'a';
 
+//42 added 19/8/10
+$sites['seochallenge']['url'] = 'http://www.nzseochallenge.co.nz';
+$sites['seochallenge']['description'] = array();
+$sites['seochallenge']['description'][] = 'SEO';
+$sites['seochallenge']['description'][] = 'Search Engine Optimisation';
+$sites['seochallenge']['description'][] = 'Search Engine Optimization';
+$sites['seochallenge']['pagerank'] = '0';
+$sites['seochallenge']['group'] = 'a';
+
 /* Group B */
 //1
 $sites['englishnz']['url'] = 'http://www.englishnewzealand.co.nz';
@@ -1114,15 +1123,6 @@ $sites['youtube-dnz-camper-c']['description'][] = 'Campervan Hire New Zealand';
 $sites['youtube-dnz-camper-c']['description'][] = 'Campervans New Zealand';
 $sites['youtube-dnz-camper-c']['pagerank'] = '4';
 $sites['youtube-dnz-camper-c']['group'] = 'c';
-
-//27 - added 9/8/08
-$sites['arrowcat']['url'] = 'http://www.arrowcat.co.nz';
-$sites['arrowcat']['description'] = array();
-$sites['arrowcat']['description'][] = 'Catamaran';
-$sites['arrowcat']['description'][] = 'Boats for Sale';
-$sites['arrowcat']['description'][] = 'Catamarans for Sale';
-$sites['arrowcat']['pagerank'] = '3';
-$sites['arrowcat']['group'] = 'c';
 
 //28 - added 21/8/08
 $sites['hilton']['url'] = 'http://www.hiltonvacuums.com';
