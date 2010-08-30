@@ -424,9 +424,10 @@ $sites['elenab']['group'] = 'a';
 //42 added 19/8/10
 $sites['seochallenge']['url'] = 'http://www.nzseochallenge.co.nz';
 $sites['seochallenge']['description'] = array();
-$sites['seochallenge']['description'][] = 'SEO';
-$sites['seochallenge']['description'][] = 'Search Engine Optimisation';
-$sites['seochallenge']['description'][] = 'Search Engine Optimization';
+$sites['seochallenge']['description'][] = 'QuadraCentifiable';
+$sites['seochallenge']['description'][] = 'QuadraCentifiable';
+$sites['seochallenge']['description'][] = 'QuadraCentifiable';
+$sites['seochallenge']['description'][] = 'QuadraCentifiably';
 $sites['seochallenge']['pagerank'] = '0';
 $sites['seochallenge']['group'] = 'a';
 
@@ -851,6 +852,16 @@ $sites['britishmovers']['description'][] = 'Moving to UK';
 $sites['britishmovers']['pagerank'] = '2';
 $sites['britishmovers']['group'] = 'b';
 
+//46 added 31/8/10
+$sites['seochallenge']['url'] = 'http://www.nzseochallenge.co.nz';
+$sites['seochallenge']['description'] = array();
+$sites['seochallenge']['description'][] = 'QuadraCentifiable';
+$sites['seochallenge']['description'][] = 'QuadraCentifiable';
+$sites['seochallenge']['description'][] = 'QuadraCentifiable';
+$sites['seochallenge']['description'][] = 'QuadraCentifiably';
+$sites['seochallenge']['pagerank'] = '0';
+$sites['seochallenge']['group'] = 'b';
+
 /* Group C */
 //1
 $sites['ragepank']['url'] = 'http://www.ragepank.com';
@@ -1260,6 +1271,15 @@ $sites['rimufurniture']['description'][] = 'Rimu Dining Table';
 $sites['rimufurniture']['pagerank'] = '0';
 $sites['rimufurniture']['group'] = 'c';
 
+//42 added 31/8/10
+$sites['seochallenge']['url'] = 'http://www.nzseochallenge.co.nz';
+$sites['seochallenge']['description'] = array();
+$sites['seochallenge']['description'][] = 'QuadraCentifiable';
+$sites['seochallenge']['description'][] = 'QuadraCentifiable';
+$sites['seochallenge']['description'][] = 'QuadraCentifiable';
+$sites['seochallenge']['description'][] = 'QuadraCentifiably';
+$sites['seochallenge']['pagerank'] = '0';
+$sites['seochallenge']['group'] = 'c';
 
 /* Group D */
 //1
@@ -1581,6 +1601,15 @@ $sites['urinefree']['description'][] = 'Cat Urine Odor Remover';
 $sites['urinefree']['pagerank'] = '1';
 $sites['urinefree']['group'] = 'd';
 
+//35 added 31/8/10
+$sites['seochallenge']['url'] = 'http://www.nzseochallenge.co.nz';
+$sites['seochallenge']['description'] = array();
+$sites['seochallenge']['description'][] = 'QuadraCentifiable';
+$sites['seochallenge']['description'][] = 'QuadraCentifiable';
+$sites['seochallenge']['description'][] = 'QuadraCentifiable';
+$sites['seochallenge']['description'][] = 'QuadraCentifiably';
+$sites['seochallenge']['pagerank'] = '0';
+$sites['seochallenge']['group'] = 'd';
 
 /* Group X - the stuff you might not want to link to */
 
