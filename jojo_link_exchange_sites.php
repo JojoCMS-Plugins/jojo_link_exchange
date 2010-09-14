@@ -862,6 +862,26 @@ $sites['seochallenge']['description'][] = 'QuadraCentifiably';
 $sites['seochallenge']['pagerank'] = '0';
 $sites['seochallenge']['group'] = 'b';
 
+//47 added 14/09/10
+$sites['carpetcleaningforce']['url'] = 'http://www.carpetcleaningforce.co.nz';
+$sites['carpetcleaningforce']['description'] = array();
+$sites['carpetcleaningforce']['description'][] = 'Carpet Cleaning Auckland';
+$sites['carpetcleaningforce']['description'][] = 'Carpet Cleaning';
+$sites['carpetcleaningforce']['description'][] = 'Auckland Carpet Cleaning';
+$sites['carpetcleaningforce']['description'][] = 'Carpet Cleaners';
+$sites['carpetcleaningforce']['pagerank'] = '0';
+$sites['carpetcleaningforce']['group'] = 'b';
+
+//48 added 14/09/10
+$sites['aacarpetcleaning']['url'] = 'http://www.aacarpetcleaning.co.nz';
+$sites['aacarpetcleaning']['description'] = array();
+$sites['aacarpetcleaning']['description'][] = 'Carpet Cleaning';
+$sites['aacarpetcleaning']['description'][] = 'Carpet Cleaning Auckland';
+$sites['aacarpetcleaning']['description'][] = 'Carpet Cleaners';
+$sites['aacarpetcleaning']['description'][] = 'Auckland Carpet Cleaning';
+$sites['aacarpetcleaning']['pagerank'] = '0';
+$sites['aacarpetcleaning']['group'] = 'b';
+
 /* Group C */
 //1
 $sites['ragepank']['url'] = 'http://www.ragepank.com';
