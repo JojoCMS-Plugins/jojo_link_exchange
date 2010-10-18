@@ -1631,6 +1631,14 @@ $sites['seochallenge']['description'][] = 'QuadraCentifiably';
 $sites['seochallenge']['pagerank'] = '0';
 $sites['seochallenge']['group'] = 'd';
 
+//36 added 18/10/10
+$sites['hydro']['url'] = 'http://www.hydroelectroniccigarette.com';
+$sites['hydro']['description'] = array();
+$sites['hydro']['description'][] = 'Electronic Cigarette';
+$sites['hydro']['description'][] = 'Electronic Cigarettes';
+$sites['hydro']['pagerank'] = '0';
+$sites['hydro']['group'] = 'd';
+
 /* Group X - the stuff you might not want to link to */
 
 $sites['menshealth']['url'] = 'http://www.menshealth.co.nz';
