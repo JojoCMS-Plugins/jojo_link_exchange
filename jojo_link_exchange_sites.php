@@ -1639,6 +1639,15 @@ $sites['hydro']['description'][] = 'Electronic Cigarettes';
 $sites['hydro']['pagerank'] = '0';
 $sites['hydro']['group'] = 'd';
 
+//37 added 20/10/10
+$sites['ecobubs']['url'] = 'http://www.ecobubsnappies.com';
+$sites['ecobubs']['description'] = array();
+$sites['ecobubs']['description'][] = 'Nappies';
+$sites['ecobubs']['description'][] = 'Cloth Nappies';
+$sites['ecobubs']['description'][] = 'Reusable Nappies';
+$sites['ecobubs']['pagerank'] = '0';
+$sites['ecobubs']['group'] = 'd';
+
 /* Group X - the stuff you might not want to link to */
 
 $sites['menshealth']['url'] = 'http://www.menshealth.co.nz';
