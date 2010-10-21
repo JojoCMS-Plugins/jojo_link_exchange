@@ -1301,6 +1301,16 @@ $sites['seochallenge']['description'][] = 'QuadraCentifiably';
 $sites['seochallenge']['pagerank'] = '0';
 $sites['seochallenge']['group'] = 'c';
 
+//43 added 22.10/10
+$sites['allscaffolding']['url'] = 'http://www.allscaffolding.co.nz';
+$sites['allscaffolding']['description'] = array();
+$sites['allscaffolding']['description'][] = 'Auckland Scaffolding';
+$sites['allscaffolding']['description'][] = 'Scaffolding';
+$sites['allscaffolding']['description'][] = 'Scaffolding Auckland';
+$sites['allscaffolding']['pagerank'] = '0';
+$sites['allscaffolding']['group'] = 'c';
+
+
 /* Group D */
 //1
 $sites['searchmasters']['url'] = 'http://www.searchmasters.co.nz';
