@@ -431,6 +431,14 @@ $sites['seochallenge']['description'][] = 'QuadraCentifiably';
 $sites['seochallenge']['pagerank'] = '0';
 $sites['seochallenge']['group'] = 'a';
 
+//43 added 17/1/11
+$sites['makeityour']['url'] = 'http://www.makeityourringdiamondengagementrings.co';
+$sites['makeityour']['description'] = array();
+$sites['makeityour']['description'][] = 'MakeItYourRing Diamond Engagement Rings';
+$sites['makeityour']['description'][] = 'Diamond Engagement Rings';
+$sites['makeityour']['pagerank'] = '0';
+$sites['makeityour']['group'] = 'a';
+
 /* Group B */
 //1
 $sites['englishnz']['url'] = 'http://www.englishnewzealand.co.nz';
@@ -1309,6 +1317,14 @@ $sites['allscaffolding']['description'][] = 'Scaffolding';
 $sites['allscaffolding']['description'][] = 'Scaffolding Auckland';
 $sites['allscaffolding']['pagerank'] = '0';
 $sites['allscaffolding']['group'] = 'c';
+
+//44 added 17/1/11
+$sites['makeityour']['url'] = 'http://www.makeityourringdiamondengagementrings.co';
+$sites['makeityour']['description'] = array();
+$sites['makeityour']['description'][] = 'MakeItYourRing Diamond Engagement Rings';
+$sites['makeityour']['description'][] = 'Diamond Engagement Rings';
+$sites['makeityour']['pagerank'] = '0';
+$sites['makeityour']['group'] = 'c';
 
 
 /* Group D */
