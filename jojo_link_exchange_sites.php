@@ -165,9 +165,7 @@ $sites['thetopschools']['description'][] = 'University Information';
 $sites['thetopschools']['pagerank'] = '2';
 $sites['thetopschools']['group'] = 'a';
 
-//doubled up several items so there is twice the % of links for those phrases as compared to the others linked to
 //15
-
 $sites['elliotthotel']['url'] = 'http://www.elliottaucklandcityhotel.com';
 $sites['elliotthotel']['description'] = array();
 $sites['elliotthotel']['description'][] = 'Hotel Auckland';
@@ -276,15 +274,6 @@ $sites['smonline']['description'][] = 'SEO';
 $sites['smonline']['pagerank'] = '3';
 $sites['smonline']['group'] = 'a';
 
-
-//25 - added 12/1/09
-
-$sites['healthaireb']['url'] = 'http://www.healthaire.co.nz';
-$sites['healthaireb']['description'] = array();
-$sites['healthaireb']['description'][] = 'Ventilation';
-$sites['healthaireb']['description'][] = 'Home Ventilation';
-$sites['healthaireb']['pagerank'] = '3';
-$sites['healthaireb']['group'] = 'a';
 
 //26 - added 14/1/09
 $sites['econergy']['url'] = 'http://www.econergy.co.nz';
@@ -505,15 +494,15 @@ $sites['environmentalnz']['group'] = 'b';
 //9
 $sites['drive-nz']['url'] = 'http://www.drivenz.co.nz';
 $sites['drive-nz']['description'] = array();
-$sites['drive-nz']['description'][] = 'New Zealand Car Rental';//12 28/11/07
-$sites['drive-nz']['description'][] = 'New Zealand Car Rentals';//10th
-$sites['drive-nz']['description'][] = 'New Zealand Rental Car';//7th
-$sites['drive-nz']['description'][] = 'Car Hire New Zealand';//13th
-$sites['drive-nz']['description'][] = 'Car Rental New Zealand';//6th
-$sites['drive-nz']['description'][] = 'NZ Car Hire';//10th
-$sites['drive-nz']['description'][] = 'NZ Rental Cars';//10th
-$sites['drive-nz']['description'][] = 'Car Hire NZ';//12th
-$sites['drive-nz']['description'][] = 'Car Hire in New Zealand';//13th
+$sites['drive-nz']['description'][] = 'New Zealand Car Rental';
+$sites['drive-nz']['description'][] = 'New Zealand Car Rentals';
+$sites['drive-nz']['description'][] = 'New Zealand Rental Car';
+$sites['drive-nz']['description'][] = 'Car Hire New Zealand';
+$sites['drive-nz']['description'][] = 'Car Rental New Zealand';
+$sites['drive-nz']['description'][] = 'NZ Car Hire';
+$sites['drive-nz']['description'][] = 'NZ Rental Cars';
+$sites['drive-nz']['description'][] = 'Car Hire NZ';
+$sites['drive-nz']['description'][] = 'Car Hire in New Zealand';
 $sites['drive-nz']['pagerank'] = '4';
 $sites['drive-nz']['group'] = 'b';
 
@@ -723,15 +712,6 @@ $sites['metromotel']['description'][] = 'Christchurch Motels';
 $sites['metromotel']['description'][] = 'Motels in Christchurch';
 $sites['metromotel']['pagerank'] = '3';
 $sites['metromotel']['group'] = 'b';
-
-//31 - added 24/3/10
-$sites['keys']['url'] = 'http://www.keys.co.nz';
-$sites['keys']['description'] = array();
-$sites['keys']['description'][] = 'Locksmith';
-$sites['keys']['description'][] = 'Locksmith Auckland';
-$sites['keys']['description'][] = 'Locksmiths';
-$sites['keys']['pagerank'] = '3';
-$sites['keys']['group'] = 'b';
 
 
 //32 - added 10/4/09
@@ -1077,16 +1057,6 @@ $sites['elliottyoutube']['pagerank'] = '3';
 $sites['elliottyoutube']['group'] = 'c';
 
 
-//18 - added 21/6/08
-$sites['hotsniper']['url'] = 'http://www.hotsniper.com';
-$sites['hotsniper']['description'] = array();
-$sites['hotsniper']['description'][] = 'eBay Sniping Tools';
-$sites['hotsniper']['description'][] = 'eBay Sniper';
-$sites['hotsniper']['description'][] = 'eBay Auction Sniper';
-$sites['hotsniper']['description'][] = 'eBay Snipe';
-$sites['hotsniper']['pagerank'] = '0';
-$sites['hotsniper']['group'] = 'c';
-
 //19 - added 30/6/08
 $sites['weight-loss-surgery-insurance']['url'] = 'http://www.weight-loss-surgery-insurance.com';
 $sites['weight-loss-surgery-insurance']['description'] = array();
@@ -1098,15 +1068,6 @@ $sites['weight-loss-surgery-insurance']['description'][] = 'Weight Loss';
 $sites['weight-loss-surgery-insurance']['pagerank'] = '2';
 $sites['weight-loss-surgery-insurance']['group'] = 'c';
 
-//20 - added 4/7/08
-$sites['rymanhealthcare']['url'] = 'http://www.rymanhealthcare.co.nz';
-$sites['rymanhealthcare']['description'] = array();
-$sites['rymanhealthcare']['description'][] = 'Retirement Villages';
-$sites['rymanhealthcare']['description'][] = 'Retirement Homes';
-$sites['rymanhealthcare']['description'][] = 'New Zealand Retirement Villages';
-$sites['rymanhealthcare']['description'][] = 'New Zealand Retirement Homes';
-$sites['rymanhealthcare']['pagerank'] = '4';
-$sites['rymanhealthcare']['group'] = 'c';
 
 //21 - added 24/7/08
 $sites['arrowfield']['url'] = 'http://www.arrowfield.co.nz';
@@ -1408,27 +1369,6 @@ $sites['lifeenergy']['pagerank'] = '3';
 $sites['lifeenergy']['group'] = 'd';
 
 
-//10 14 jan 2008 - rankings on google.co.nz
-$sites['nzimmigrationmedical']['url'] = 'http://www.nzimmigrationmedical.co.nz';
-$sites['nzimmigrationmedical']['description'] = array();
-$sites['nzimmigrationmedical']['description'][] = 'New Zealand Immigration Medical';
-$sites['nzimmigrationmedical']['description'][] = 'New Zealand Immigration Medicals';
-$sites['nzimmigrationmedical']['description'][] = 'New Zealand Immigration';
-$sites['nzimmigrationmedical']['description'][] = 'NZ Immigration';//49
-$sites['nzimmigrationmedical']['pagerank'] = '4';
-$sites['nzimmigrationmedical']['group'] = 'd';
-
-//11
-$sites['contacts2go']['url'] = 'http://www.contacts2go.co.nz';
-$sites['contacts2go']['description'] = array();
-$sites['contacts2go']['description'][] = 'Cheap Contact Lenses';
-$sites['contacts2go']['description'][] = 'Contact Lens';
-$sites['contacts2go']['description'][] = 'Cheap Contact Lens';
-$sites['contacts2go']['description'][] = 'Coloured Contact Lens';
-$sites['contacts2go']['description'][] = 'Bifocal Contact Lens';
-$sites['contacts2go']['pagerank'] = '4';
-$sites['contacts2go']['group'] = 'd';
-
 //12
 $sites['renewedreflections']['url'] = 'http://www.renewedreflections.com';
 $sites['renewedreflections']['description'] = array();
@@ -1466,14 +1406,6 @@ $sites['davemiller']['description'][] = 'Wastewater Treatment';
 $sites['davemiller']['pagerank'] = '2';
 $sites['davemiller']['group'] = 'd';
 
-//16
-$sites['revize']['url'] = 'http://www.revize.co.nz';
-$sites['revize']['description'] = array();
-$sites['revize']['description'][] = 'Corneal Refractive Therapy';
-$sites['revize']['description'][] = 'Lasik Eye Surgery';
-$sites['revize']['description'][] = 'Laser Eye Surgery';
-$sites['revize']['pagerank'] = '3';
-$sites['revize']['group'] = 'd';
 
 //17
 $sites['0800dumpme']['url'] = 'http://www.0800dumpme.co.nz';
