@@ -471,14 +471,6 @@ $sites['dynaspeak']['description'][] = 'Learn English in Auckland';
 $sites['dynaspeak']['pagerank'] = '4';
 $sites['dynaspeak']['group'] = 'b';
 
-//7
-$sites['newriver']['url'] = 'http://www.newriver.co.nz';
-$sites['newriver']['description'] = array();
-$sites['newriver']['description'][] = 'Market Research';
-$sites['newriver']['description'][] = 'Market Research New Zealand';
-$sites['newriver']['description'][] = 'New Zealand Market Research';
-$sites['newriver']['pagerank'] = '2';
-$sites['newriver']['group'] = 'b';
 
 //8
 $sites['environmentalnz']['url'] = 'http://www.environmentalnz.co.nz';
