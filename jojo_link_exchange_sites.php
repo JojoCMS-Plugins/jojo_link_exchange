@@ -375,6 +375,16 @@ $sites['eeccouk']['description'][] = 'Cigarettes';
 $sites['eeccouk']['pagerank'] = '2';
 $sites['eeccouk']['group'] = 'a';
 
+
+//37b added 4/5/11
+$sites['eeccomau2']['url'] = 'http://www.elusionec.com.au';
+$sites['eeccomau2']['description'] = array();
+$sites['eeccomau2']['description'][] = 'Electronic Cigarette';
+$sites['eeccomau2']['description'][] = 'Electronic Cigarettes';
+$sites['eeccomau2']['description'][] = 'Cigarettes';
+$sites['eeccomau2']['pagerank'] = '0';
+$sites['eeccomau2']['group'] = 'a';
+
 //38 added 25/3/09
 $sites['eecconz']['url'] = 'http://www.elusionelectroniccigarette.co.nz';
 $sites['eecconz']['description'] = array();
