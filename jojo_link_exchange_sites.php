@@ -650,16 +650,6 @@ $sites['snackboxes']['description'][] = 'Snack Vending';
 $sites['snackboxes']['pagerank'] = '2';
 $sites['snackboxes']['group'] = 'b';
 
-//24 added 10/2/09
-$sites['nzhjcom']['url'] = 'http://www.newzealandhealthjobs.com';
-$sites['nzhjcom']['description'] = array();
-$sites['nzhjcom']['description'][] = 'HealthCare Jobs';
-$sites['nzhjcom']['description'][] = 'Nursing Jobs';
-$sites['nzhjcom']['description'][] = 'Doctor Jobs';
-$sites['nzhjcom']['description'][] = 'New Zealand Health Jobs';
-$sites['nzhjcom']['pagerank'] = '3';
-$sites['nzhjcom']['group'] = 'b';
-
 
 //25 added 17/2/09
 $sites['citysales']['url'] = 'http://www.citysales.co.nz';
@@ -678,15 +668,6 @@ $sites['yourbusinesschannel']['description'][] = 'Business Advice';
 $sites['yourbusinesschannel']['description'][] = 'Business Television';
 $sites['yourbusinesschannel']['pagerank'] = '5';
 $sites['yourbusinesschannel']['group'] = 'b';
-
-//27 added 21/2/09
-$sites['jekzshoes']['url'] = 'http://www.jekzshoes.com.au';
-$sites['jekzshoes']['description'] = array();
-$sites['jekzshoes']['description'][] = 'Shoes';
-$sites['jekzshoes']['description'][] = 'Womens Shoes';
-$sites['jekzshoes']['description'][] = 'Mens Shoes';
-$sites['jekzshoes']['pagerank'] = '3';
-$sites['jekzshoes']['group'] = 'b';
 
 //28 added 22/3/09
 $sites['eeccom']['url'] = 'http://www.elusionelectroniccigarette.com';
