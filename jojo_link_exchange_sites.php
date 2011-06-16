@@ -292,7 +292,16 @@ $sites['ohcalcutta']['description'][] = 'Parnell Restaurants';
 $sites['ohcalcutta']['pagerank'] = '4';
 $sites['ohcalcutta']['group'] = 'a';
 
-//28 added 26/2/09
+//28 added 16/6/11
+$sites['tangos']['url'] = 'http://www.tangosshoes.co.nz';
+$sites['tangos']['description'] = array();
+$sites['tangos']['description'][] = 'Designer Shoes';
+$sites['tangos']['description'][] = 'Womens Shoes';
+$sites['tangos']['pagerank'] = '0';
+$sites['tangos']['group'] = 'a';
+
+
+//28a added 26/2/09
 $sites['jekzshoesnz']['url'] = 'http://www.jekzshoes.co.nz';
 $sites['jekzshoesnz']['description'] = array();
 $sites['jekzshoesnz']['description'][] = 'Shoes';
@@ -377,7 +386,7 @@ $sites['eeccouk']['group'] = 'a';
 
 
 //37b added 4/5/11
-$sites['eeccomau2']['url'] = 'http://www.elusionec.com.au';
+$sites['eeccomau2']['url'] = 'http://www.elusionaustralia.com.au';
 $sites['eeccomau2']['description'] = array();
 $sites['eeccomau2']['description'][] = 'Electronic Cigarette';
 $sites['eeccomau2']['description'][] = 'Electronic Cigarettes';
@@ -659,16 +668,6 @@ $sites['citysales']['description'][] = 'Apartments in Auckland';
 $sites['citysales']['pagerank'] = '4';
 $sites['citysales']['group'] = 'b';
 
-
-//26 added 19/2/09
-$sites['yourbusinesschannel']['url'] = 'http://www.yourbusinesschannel.com';
-$sites['yourbusinesschannel']['description'] = array();
-$sites['yourbusinesschannel']['description'][] = 'Business Development';
-$sites['yourbusinesschannel']['description'][] = 'Business Advice';
-$sites['yourbusinesschannel']['description'][] = 'Business Television';
-$sites['yourbusinesschannel']['pagerank'] = '5';
-$sites['yourbusinesschannel']['group'] = 'b';
-
 //28 added 22/3/09
 $sites['eeccom']['url'] = 'http://www.elusionelectroniccigarette.com';
 $sites['eeccom']['description'] = array();
@@ -696,6 +695,14 @@ $sites['metromotel']['description'][] = 'Motels in Christchurch';
 $sites['metromotel']['pagerank'] = '3';
 $sites['metromotel']['group'] = 'b';
 
+//31 - added 16/6/11
+$sites['airportpets']['url'] = 'http://www.airportpets.co.nz';
+$sites['airportpets']['description'] = array();
+$sites['airportpets']['description'][] = 'Pet Courier NZ';
+$sites['airportpets']['description'][] = 'Pet Courier';
+$sites['airportpets']['description'][] = 'Pet Couriers';
+$sites['airportpets']['pagerank'] = '4';
+$sites['airportpets']['group'] = 'b';
 
 //32 - added 10/4/09
 $sites['camelot']['url'] = 'http://www.camelot.co.nz';
