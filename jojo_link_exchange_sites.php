@@ -153,17 +153,6 @@ $sites['time2dine']['description'][] = 'Restaurants in Auckland';
 $sites['time2dine']['pagerank'] = '4';
 $sites['time2dine']['group'] = 'a';
 
-//14
-$sites['thetopschools']['url'] = 'http://www.the-top-schools.com';
-$sites['thetopschools']['description'] = array();
-$sites['thetopschools']['description'][] = 'Top Schools';
-$sites['thetopschools']['description'][] = 'Top Colleges';
-$sites['thetopschools']['description'][] = 'Top Universities';
-$sites['thetopschools']['description'][] = 'School Information';
-$sites['thetopschools']['description'][] = 'College Information';
-$sites['thetopschools']['description'][] = 'University Information';
-$sites['thetopschools']['pagerank'] = '2';
-$sites['thetopschools']['group'] = 'a';
 
 //15
 $sites['elliotthotel']['url'] = 'http://www.elliottaucklandcityhotel.com';
